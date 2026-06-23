@@ -1,0 +1,113 @@
+{
+  "id": "MR-130Ri",
+  "name": "13tRC(MR-130Ri)",
+  "maker": "KATO",
+  "type": "13tラフタークレーン",
+  "cap_t": 13,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    5.3,
+    9.04,
+    12.78,
+    16.52,
+    20.26,
+    24.0
+  ],
+  "min_r_m": 2.5,
+  "maxR_boom": 24.0,
+  "outrigger_m": 4.75,
+  "outrigger_options": [
+    {
+      "m": 4.75,
+      "label": "4.75m"
+    },
+    {
+      "m": 4.3,
+      "label": "4.3m"
+    },
+    {
+      "m": 3.7,
+      "label": "3.7m"
+    },
+    {
+      "m": 2.7,
+      "label": "2.7m"
+    }
+  ],
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "jib_options": [
+    {
+      "m": 3.6,
+      "label": "3.6m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        20.26,
+        24.0
+      ]
+    },
+    {
+      "m": 5.5,
+      "label": "5.5m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        20.26,
+        24.0
+      ]
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_13t",
+      "name": "13tフック",
+      "ton": 13,
+      "weight_t": 0.13,
+      "hookHeight_m": 1.7,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": null
+    },
+    {
+      "id": "hook_3t_jib",
+      "name": "3tフック(ジブ)",
+      "ton": 3,
+      "weight_t": 0.05,
+      "hookHeight_m": 1.7,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 4.75,
+    "counterweight": false,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "boom_foot_x": -2.0,
+  "boom_foot_y": 2.8,
+  "maxR_jib": 28.0
+}
