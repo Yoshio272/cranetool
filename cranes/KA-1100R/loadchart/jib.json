@@ -6,7 +6,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 18,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 4.6,
@@ -111,7 +111,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -216,7 +216,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.7,
@@ -301,27 +301,11 @@
                   "37": {
                     "radius_m": 34.2,
                     "capacity_t": 3.15
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.3,
@@ -382,51 +366,11 @@
                   "51": {
                     "radius_m": 28.6,
                     "capacity_t": 5.05
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 62,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.2,
@@ -463,70 +407,6 @@
                   "64": {
                     "radius_m": 22.2,
                     "capacity_t": 4.65
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -535,7 +415,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 18,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.1,
@@ -640,7 +520,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.3,
@@ -737,15 +617,11 @@
                   "22": {
                     "radius_m": 44.3,
                     "capacity_t": 1.7
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.5,
@@ -826,31 +702,11 @@
                   "37": {
                     "radius_m": 40.1,
                     "capacity_t": 2.2
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.8,
@@ -907,55 +763,11 @@
                   "51": {
                     "radius_m": 34.3,
                     "capacity_t": 2.5
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.4,
@@ -988,74 +800,6 @@
                   "65": {
                     "radius_m": 27.1,
                     "capacity_t": 2.35
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -1064,7 +808,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -1169,7 +913,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 21,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -1266,15 +1010,11 @@
                   "23": {
                     "radius_m": 50.0,
                     "capacity_t": 1.1
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.5,
@@ -1355,31 +1095,11 @@
                   "37": {
                     "radius_m": 45.7,
                     "capacity_t": 1.45
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.8,
@@ -1436,55 +1156,11 @@
                   "51": {
                     "radius_m": 39.9,
                     "capacity_t": 1.55
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.9,
@@ -1517,74 +1193,6 @@
                   "65": {
                     "radius_m": 32.7,
                     "capacity_t": 1.4
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -1595,7 +1203,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.4,
@@ -1700,7 +1308,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 21,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.8,
@@ -1797,15 +1405,11 @@
                   "23": {
                     "radius_m": 45.1,
                     "capacity_t": 0.7
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 37,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.8,
@@ -1886,31 +1490,11 @@
                   "39": {
                     "radius_m": 39.8,
                     "capacity_t": 1.8
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.4,
@@ -1963,59 +1547,11 @@
                   "53": {
                     "radius_m": 33.0,
                     "capacity_t": 3.55
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "39": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -2044,78 +1580,6 @@
                   "67": {
                     "radius_m": 24.2,
                     "capacity_t": 4.65
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "39": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -2124,7 +1588,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 21,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -2225,7 +1689,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 22,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.0,
@@ -2318,15 +1782,11 @@
                   "24": {
                     "radius_m": 50.7,
                     "capacity_t": 0.55
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.9,
@@ -2403,31 +1863,11 @@
                   "40": {
                     "radius_m": 45.1,
                     "capacity_t": 1.55
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "24": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -2480,55 +1920,11 @@
                   "53": {
                     "radius_m": 38.7,
                     "capacity_t": 2.55
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "24": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 16.5,
@@ -2557,74 +1953,6 @@
                   "67": {
                     "radius_m": 29.6,
                     "capacity_t": 2.35
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "24": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -2633,7 +1961,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 25,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.4,
@@ -2726,7 +2054,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 25,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.1,
@@ -2819,7 +2147,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -2896,23 +2224,11 @@
                   "40": {
                     "radius_m": 51.1,
                     "capacity_t": 1.3
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.3,
@@ -2965,47 +2281,11 @@
                   "53": {
                     "radius_m": 44.4,
                     "capacity_t": 1.5
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.1,
@@ -3034,66 +2314,6 @@
                   "67": {
                     "radius_m": 35.2,
                     "capacity_t": 1.4
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -3104,7 +2324,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 32,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.4,
@@ -3193,7 +2413,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 32,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.0,
@@ -3282,7 +2502,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 37,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.2,
@@ -3359,19 +2579,11 @@
                   "40": {
                     "radius_m": 45.8,
                     "capacity_t": 0.95
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "34": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.9,
@@ -3424,43 +2636,11 @@
                   "55": {
                     "radius_m": 37.5,
                     "capacity_t": 2.4
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "34": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.9,
@@ -3489,62 +2669,6 @@
                   "68": {
                     "radius_m": 28.1,
                     "capacity_t": 3.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "34": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -3553,7 +2677,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.0,
@@ -3642,7 +2766,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.8,
@@ -3731,7 +2855,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.5,
@@ -3808,19 +2932,11 @@
                   "41": {
                     "radius_m": 51.0,
                     "capacity_t": 0.8
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -3873,43 +2989,11 @@
                   "55": {
                     "radius_m": 43.5,
                     "capacity_t": 2.15
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.3,
@@ -3938,62 +3022,6 @@
                   "68": {
                     "radius_m": 33.1,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -4002,7 +3030,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.5,
@@ -4087,7 +3115,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.5,
@@ -4172,7 +3200,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.5,
@@ -4249,15 +3277,11 @@
                   "41": {
                     "radius_m": 56.9,
                     "capacity_t": 0.6
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.0,
@@ -4310,39 +3334,11 @@
                   "55": {
                     "radius_m": 48.9,
                     "capacity_t": 1.4
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 23.9,
@@ -4371,58 +3367,6 @@
                   "68": {
                     "radius_m": 38.6,
                     "capacity_t": 1.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -4433,7 +3377,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 39,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.9,
@@ -4514,7 +3458,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 39,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.5,
@@ -4595,7 +3539,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 39,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -4676,7 +3620,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.6,
@@ -4729,35 +3673,11 @@
                   "55": {
                     "radius_m": 39.6,
                     "capacity_t": 1.7
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.7,
@@ -4786,54 +3706,6 @@
                   "69": {
                     "radius_m": 28.6,
                     "capacity_t": 3.45
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "41": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -4842,7 +3714,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.3,
@@ -4907,7 +3779,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -4972,7 +3844,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -5037,7 +3909,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.9,
@@ -5090,19 +3962,11 @@
                   "55": {
                     "radius_m": 45.1,
                     "capacity_t": 1.1
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.2,
@@ -5131,38 +3995,6 @@
                   "69": {
                     "radius_m": 34.2,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -5171,7 +4003,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.6,
@@ -5240,7 +4072,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.2,
@@ -5301,15 +4133,11 @@
                   "54": {
                     "radius_m": 49.2,
                     "capacity_t": 0.75
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.6,
@@ -5370,15 +4198,11 @@
                   "54": {
                     "radius_m": 51.1,
                     "capacity_t": 0.75
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.9,
@@ -5431,23 +4255,11 @@
                   "56": {
                     "radius_m": 50.4,
                     "capacity_t": 0.95
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "54": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 24.8,
@@ -5476,42 +4288,6 @@
                   "69": {
                     "radius_m": 39.7,
                     "capacity_t": 1.4
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "56": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "54": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -5526,7 +4302,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 18,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 4.6,
@@ -5635,7 +4411,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -5736,15 +4512,11 @@
                   "22": {
                     "radius_m": 38.2,
                     "capacity_t": 1.3
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.7,
@@ -5829,31 +4601,11 @@
                   "37": {
                     "radius_m": 34.0,
                     "capacity_t": 2.2
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.3,
@@ -5914,55 +4666,11 @@
                   "51": {
                     "radius_m": 28.4,
                     "capacity_t": 3.9
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 62,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.2,
@@ -5999,74 +4707,6 @@
                   "64": {
                     "radius_m": 22.2,
                     "capacity_t": 4.65
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -6075,7 +4715,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 18,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.1,
@@ -6180,7 +4820,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 20,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.3,
@@ -6277,15 +4917,11 @@
                   "22": {
                     "radius_m": 43.9,
                     "capacity_t": 1.05
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.5,
@@ -6366,31 +5002,11 @@
                   "37": {
                     "radius_m": 39.8,
                     "capacity_t": 1.8
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.8,
@@ -6447,55 +5063,11 @@
                   "51": {
                     "radius_m": 34.3,
                     "capacity_t": 2.5
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.4,
@@ -6528,74 +5100,6 @@
                   "65": {
                     "radius_m": 27.1,
                     "capacity_t": 2.35
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "20": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -6604,7 +5108,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 21,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -6709,7 +5213,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 21,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -6806,15 +5310,11 @@
                   "23": {
                     "radius_m": 49.4,
                     "capacity_t": 0.85
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.5,
@@ -6895,31 +5395,11 @@
                   "37": {
                     "radius_m": 45.7,
                     "capacity_t": 1.45
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.8,
@@ -6976,55 +5456,11 @@
                   "51": {
                     "radius_m": 39.9,
                     "capacity_t": 1.55
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.9,
@@ -7057,74 +5493,6 @@
                   "65": {
                     "radius_m": 32.7,
                     "capacity_t": 1.4
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "22": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -7135,7 +5503,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 32,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.4,
@@ -7228,7 +5596,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 32,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.8,
@@ -7321,7 +5689,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 37,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.8,
@@ -7402,19 +5770,11 @@
                   "39": {
                     "radius_m": 39.5,
                     "capacity_t": 1.0
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "33": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.4,
@@ -7467,47 +5827,11 @@
                   "53": {
                     "radius_m": 32.7,
                     "capacity_t": 2.6
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "39": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "33": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -7536,66 +5860,6 @@
                   "67": {
                     "radius_m": 24.2,
                     "capacity_t": 4.65
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "39": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "33": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -7604,7 +5868,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -7689,7 +5953,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.0,
@@ -7774,7 +6038,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.9,
@@ -7851,15 +6115,11 @@
                   "40": {
                     "radius_m": 44.8,
                     "capacity_t": 0.85
-                  },
-                  "36": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -7912,39 +6172,11 @@
                   "53": {
                     "radius_m": 38.6,
                     "capacity_t": 2.05
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "36": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 16.5,
@@ -7973,58 +6205,6 @@
                   "67": {
                     "radius_m": 29.6,
                     "capacity_t": 2.35
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "36": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -8033,7 +6213,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 37,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.4,
@@ -8118,7 +6298,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 37,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.1,
@@ -8203,7 +6383,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 38,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -8280,15 +6460,11 @@
                   "40": {
                     "radius_m": 50.6,
                     "capacity_t": 0.65
-                  },
-                  "38": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 50,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.3,
@@ -8341,39 +6517,11 @@
                   "53": {
                     "radius_m": 44.4,
                     "capacity_t": 1.5
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "38": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.1,
@@ -8402,58 +6550,6 @@
                   "67": {
                     "radius_m": 35.2,
                     "capacity_t": 1.4
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "38": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -8464,7 +6560,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 42,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.4,
@@ -8545,7 +6641,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 42,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.0,
@@ -8626,7 +6722,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 42,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.2,
@@ -8699,15 +6795,11 @@
                   "44": {
                     "radius_m": 43.2,
                     "capacity_t": 0.6
-                  },
-                  "43": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.9,
@@ -8760,35 +6852,11 @@
                   "55": {
                     "radius_m": 36.7,
                     "capacity_t": 1.9
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "44": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "43": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.9,
@@ -8817,54 +6885,6 @@
                   "68": {
                     "radius_m": 28.1,
                     "capacity_t": 3.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "44": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "43": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -8873,7 +6893,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 44,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.0,
@@ -8950,7 +6970,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 44,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.8,
@@ -9019,15 +7039,11 @@
                   "46": {
                     "radius_m": 46.9,
                     "capacity_t": 0.6
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 44,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.5,
@@ -9096,15 +7112,11 @@
                   "46": {
                     "radius_m": 47.9,
                     "capacity_t": 0.6
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -9157,31 +7169,11 @@
                   "55": {
                     "radius_m": 43.6,
                     "capacity_t": 1.35
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "46": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.3,
@@ -9210,50 +7202,6 @@
                   "68": {
                     "radius_m": 33.1,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "46": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -9262,7 +7210,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 46,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.5,
@@ -9331,7 +7279,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 46,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.5,
@@ -9400,7 +7348,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 46,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.5,
@@ -9469,7 +7417,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.0,
@@ -9522,23 +7470,11 @@
                   "55": {
                     "radius_m": 48.9,
                     "capacity_t": 1.2
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 23.9,
@@ -9567,42 +7503,6 @@
                   "68": {
                     "radius_m": 38.6,
                     "capacity_t": 1.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -9613,7 +7513,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 47,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.9,
@@ -9686,7 +7586,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 48,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.5,
@@ -9751,15 +7651,11 @@
                   "49": {
                     "radius_m": 42.3,
                     "capacity_t": 0.6
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 48,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -9820,19 +7716,11 @@
                   "50": {
                     "radius_m": 42.3,
                     "capacity_t": 0.75
-                  },
-                  "49": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.6,
@@ -9885,27 +7773,11 @@
                   "55": {
                     "radius_m": 39.3,
                     "capacity_t": 1.4
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "49": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.7,
@@ -9934,46 +7806,6 @@
                   "69": {
                     "radius_m": 28.6,
                     "capacity_t": 3.45
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "49": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "48": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -9982,7 +7814,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.3,
@@ -10059,7 +7891,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -10136,7 +7968,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -10213,7 +8045,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.9,
@@ -10266,31 +8098,11 @@
                   "55": {
                     "radius_m": 45.4,
                     "capacity_t": 1.35
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "43": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.2,
@@ -10319,50 +8131,6 @@
                   "69": {
                     "radius_m": 34.2,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "43": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -10371,7 +8139,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.6,
@@ -10444,7 +8212,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.2,
@@ -10517,7 +8285,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.6,
@@ -10590,7 +8358,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.9,
@@ -10643,27 +8411,11 @@
                   "55": {
                     "radius_m": 51.4,
                     "capacity_t": 1.05
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 24.8,
@@ -10692,46 +8444,6 @@
                   "69": {
                     "radius_m": 39.7,
                     "capacity_t": 1.4
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -10746,7 +8458,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 22,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 4.6,
@@ -10851,7 +8563,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 22,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -10956,7 +8668,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.7,
@@ -11041,27 +8753,11 @@
                   "37": {
                     "radius_m": 33.8,
                     "capacity_t": 1.45
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.3,
@@ -11122,51 +8818,11 @@
                   "51": {
                     "radius_m": 28.3,
                     "capacity_t": 3.0
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 62,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.2,
@@ -11203,70 +8859,6 @@
                   "64": {
                     "radius_m": 22.2,
                     "capacity_t": 4.65
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "25": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "23": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -11275,7 +8867,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 26,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.1,
@@ -11372,7 +8964,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 26,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.3,
@@ -11469,7 +9061,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.5,
@@ -11550,23 +9142,11 @@
                   "37": {
                     "radius_m": 39.6,
                     "capacity_t": 1.15
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.8,
@@ -11623,47 +9203,11 @@
                   "51": {
                     "radius_m": 34.3,
                     "capacity_t": 2.3
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.4,
@@ -11696,66 +9240,6 @@
                   "65": {
                     "radius_m": 27.1,
                     "capacity_t": 2.35
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "27": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -11764,7 +9248,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 29,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -11861,7 +9345,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 30,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -11950,15 +9434,11 @@
                   "31": {
                     "radius_m": 46.9,
                     "capacity_t": 0.5
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 35,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.5,
@@ -12039,23 +9519,11 @@
                   "37": {
                     "radius_m": 45.4,
                     "capacity_t": 0.9
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "31": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 49,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.8,
@@ -12112,47 +9580,11 @@
                   "51": {
                     "radius_m": 39.9,
                     "capacity_t": 1.55
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "31": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 63,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.9,
@@ -12185,66 +9617,6 @@
                   "65": {
                     "radius_m": 32.7,
                     "capacity_t": 1.4
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "40": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "37": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "35": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "31": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "30": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -12255,7 +9627,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.4,
@@ -12332,7 +9704,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.8,
@@ -12409,7 +9781,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 41,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.8,
@@ -12486,7 +9858,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.4,
@@ -12539,31 +9911,11 @@
                   "53": {
                     "radius_m": 32.4,
                     "capacity_t": 1.8
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -12592,50 +9944,6 @@
                   "67": {
                     "radius_m": 24.2,
                     "capacity_t": 4.65
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "42": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -12644,7 +9952,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 5.9,
@@ -12721,7 +10029,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 9.0,
@@ -12798,7 +10106,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 43,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.9,
@@ -12875,7 +10183,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -12928,31 +10236,11 @@
                   "53": {
                     "radius_m": 38.3,
                     "capacity_t": 1.45
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "44": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 16.5,
@@ -12981,50 +10269,6 @@
                   "67": {
                     "radius_m": 29.6,
                     "capacity_t": 2.35
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "45": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "44": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -13033,7 +10277,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 45,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.4,
@@ -13106,7 +10350,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 45,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.1,
@@ -13179,7 +10423,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 45,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -13252,7 +10496,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 20.3,
@@ -13305,27 +10549,11 @@
                   "53": {
                     "radius_m": 44.2,
                     "capacity_t": 1.15
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "46": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.1,
@@ -13354,46 +10582,6 @@
                   "67": {
                     "radius_m": 35.2,
                     "capacity_t": 1.4
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "50": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "47": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "46": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -13652,14 +10840,6 @@
                   "55": {
                     "radius_m": 36.4,
                     "capacity_t": 1.25
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
@@ -13693,38 +10873,6 @@
                   "68": {
                     "radius_m": 28.1,
                     "capacity_t": 3.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "51": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -13733,7 +10881,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 51,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.0,
@@ -13802,7 +10950,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.8,
@@ -13863,15 +11011,11 @@
                   "53": {
                     "radius_m": 41.5,
                     "capacity_t": 0.7
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.5,
@@ -13928,19 +11072,11 @@
                   "54": {
                     "radius_m": 42.3,
                     "capacity_t": 0.8
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 52,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.0,
@@ -13993,23 +11129,11 @@
                   "55": {
                     "radius_m": 42.0,
                     "capacity_t": 0.9
-                  },
-                  "54": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.3,
@@ -14038,42 +11162,6 @@
                   "68": {
                     "radius_m": 33.1,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "54": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "53": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "52": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -14082,7 +11170,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 54,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.5,
@@ -14139,7 +11227,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 54,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.5,
@@ -14196,7 +11284,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 54,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 18.5,
@@ -14253,7 +11341,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 54,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.0,
@@ -14302,15 +11390,11 @@
                   "57": {
                     "radius_m": 46.8,
                     "capacity_t": 0.9
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 64,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 23.9,
@@ -14339,30 +11423,6 @@
                   "68": {
                     "radius_m": 38.6,
                     "capacity_t": 1.3
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "55": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -14373,7 +11433,7 @@
           "8.8": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 56,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 6.9,
@@ -14430,7 +11490,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 56,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.5,
@@ -14487,7 +11547,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 56,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 10.9,
@@ -14544,7 +11604,7 @@
                 }
               },
               "45": {
-                "danger_angle_deg": 56,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 12.6,
@@ -14593,15 +11653,11 @@
                   "58": {
                     "radius_m": 36.7,
                     "capacity_t": 1.15
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 13.7,
@@ -14630,30 +11686,6 @@
                   "69": {
                     "radius_m": 28.6,
                     "capacity_t": 3.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "58": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "57": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -14662,7 +11694,7 @@
           "14.6": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 57,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 7.3,
@@ -14719,7 +11751,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 57,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 11.3,
@@ -14776,7 +11808,7 @@
                 }
               },
               "30": {
-                "danger_angle_deg": 58,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 15.2,
@@ -14825,15 +11857,11 @@
                   "60": {
                     "radius_m": 40.2,
                     "capacity_t": 1.15
-                  },
-                  "58": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 58,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 17.9,
@@ -14878,19 +11906,11 @@
                   "61": {
                     "radius_m": 40.3,
                     "capacity_t": 1.25
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "58": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.2,
@@ -14919,30 +11939,6 @@
                   "69": {
                     "radius_m": 34.2,
                     "capacity_t": 2.25
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "61": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "58": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
@@ -14951,7 +11947,7 @@
           "20.4": {
             "offsets": {
               "5": {
-                "danger_angle_deg": 58,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 8.6,
@@ -15004,7 +12000,7 @@
                 }
               },
               "15": {
-                "danger_angle_deg": 59,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 14.2,
@@ -15049,15 +12045,11 @@
                   "61": {
                     "radius_m": 42.4,
                     "capacity_t": 1.0
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "30": {
-                "danger_angle_deg": 59,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 19.6,
@@ -15102,15 +12094,11 @@
                   "61": {
                     "radius_m": 45.0,
                     "capacity_t": 0.95
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "45": {
-                "danger_angle_deg": 59,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 22.9,
@@ -15151,19 +12139,11 @@
                   "62": {
                     "radius_m": 45.5,
                     "capacity_t": 1.05
-                  },
-                  "61": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               },
               "60": {
-                "danger_angle_deg": 65,
+                "danger_angle_deg": null,
                 "entries": {
                   "84": {
                     "radius_m": 24.8,
@@ -15192,26 +12172,6 @@
                   "69": {
                     "radius_m": 39.7,
                     "capacity_t": 1.4
-                  },
-                  "67": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "65": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "62": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "61": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
-                  },
-                  "60": {
-                    "radius_m": NaN,
-                    "capacity_t": NaN
                   }
                 }
               }
