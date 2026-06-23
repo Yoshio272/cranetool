@@ -691,7 +691,7 @@ function App() {
   // loadCraneData — meta+loadchart fetchしてcraneCache更新
   function loadCraneData(id) {
     if (!id) return;
-    if (craneCache[id] && craneCache[id].loaded) return;
+    if (craneCacheRef.current[id] && craneCacheRef.current[id].loaded) return;
 
     var mf   = getManifestEntry(id);
     var base = (mf && mf.basePath) ? mf.basePath : ('cranes/' + id + '/');
@@ -774,6 +774,7 @@ function App() {
       (selected.rtJibOptions      || []).length !== (refreshed.rtJibOptions      || []).length ||
       (selected.rtBoomModes       || []).length !== (refreshed.rtBoomModes       || []).length ||
       (selected.boomSteps         || []).length !== (refreshed.boomSteps         || []).length ||
+      (!selected.boomSteps && !!refreshed.boomSteps) || (!!selected.boomSteps && !refreshed.boomSteps) ||
       JSON.stringify(selected.capabilities) !== JSON.stringify(refreshed.capabilities);
     if (needsUpdate) {
       setSelected(refreshed);
@@ -821,8 +822,9 @@ function App() {
       outrigger_m:    maxOutr !== null ? maxOutr : (d.outrigger_m !== undefined ? d.outrigger_m : null),
       counterweight:  selected.capabilities && selected.capabilities.counterweight ? true : false,
       boom_mode:      d.boom_mode !== undefined ? d.boom_mode : 'normal',
-      jib_m:          null,    // ジブ: 無し
+      jib_m:          null,
       jib_offset:     d.jib_offset !== undefined ? d.jib_offset : 5,
+      jib_config:     'yokodakae',
       selectedHookId: bestHook ? bestHook.id : null,
     });
   }, [selected]);
