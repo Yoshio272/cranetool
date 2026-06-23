@@ -564,13 +564,15 @@ function buildSVG(crane, radius, weight, boomLen, selectedHook, buildingDist, bu
     ce('line', { x1: hkX + wireSpan * 0.15, y1: hkBotSY, x2: hkX + wireSpan, y2: sy(loadTop_m), stroke: P.sub, strokeWidth: 0.08, strokeLinecap: 'round' }))
     : null;
 
-  // Layer7: 吊荷（ok判定はcurCapベースでなくcapacity的に正しい表示のみ）
-  var loadLayer = ce('g', { key: 'load' },
+  // Layer7: 吊荷（weight>0 かつ座標が有効なときのみ描画。rect height負値防止）
+  var _showLoad = weight > 0 && loadRectTop > 0 && loadRectBot >= 0 && loadRectTop > loadRectBot;
+  var loadLayer = _showLoad ? ce('g', { key: 'load' },
     ce('rect', { x: hkX - loadW_m, y: sy(loadRectTop), width: loadW_m * 2, height: loadH_m, rx: 0.18, fill: 'none', stroke: P.ok, strokeWidth: 0.14 }),
     [0.3, 0.65, 1.0, 1.35].map(function (dx) {
       return ce('line', { key: 'lh' + dx, x1: hkX - loadW_m + dx * loadW_m, y1: sy(loadRectBot), x2: hkX - loadW_m + dx * loadW_m, y2: sy(loadRectTop), stroke: P.ok, strokeWidth: 0.04, opacity: 0.3 });
     }),
-    ce('text', { x: hkX, y: sy(loadRectBot + loadH_m * 0.5 - 0.12), textAnchor: 'middle', fontSize: fs, fontWeight: '700', fill: P.boomL }, safeFmt(weight, 2) + 't'));
+    ce('text', { x: hkX, y: sy(loadRectBot + loadH_m * 0.5 - 0.12), textAnchor: 'middle', fontSize: fs, fontWeight: '700', fill: P.boomL }, safeFmt(weight, 2) + 't'))
+    : null;
 
   // Layer8: 寸法線
   // 揚程寸法：クレーン左側に縦寸法線（地盤面 → フック下端）
@@ -703,12 +705,13 @@ function App() {
         var files = (meta && meta.data_files) || { boom_normal: 'boom_normal.json', jib: 'jib.json' };
         var hasJibCap    = !!(meta && meta.capabilities && meta.capabilities.jib);
         var hasJibConfig = !!(meta && meta.capabilities && meta.capabilities.jib_config);
-        var boomFile    = files.boom_normal ? base + files.boom_normal : null;
-        var boomNoJibFile = (hasJibConfig && files.boom_nojib) ? base + files.boom_nojib : null;
-        var jibFile     = (hasJibCap && files.jib) ? base + files.jib : null;   // ジブ対応機種のみ読込（クローラ等の404回避）
+        // meta が null（404等）の場合はデータファイルも存在しないためfetchしない
+        var boomFile      = (meta && files.boom_normal)   ? base + files.boom_normal   : null;
+        var boomNoJibFile = (meta && hasJibConfig && files.boom_nojib) ? base + files.boom_nojib : null;
+        var jibFile       = (meta && hasJibCap && files.jib) ? base + files.jib : null;
         var fetchBoom      = boomFile      ? fetch(boomFile,      _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
         var fetchBoomNoJib = boomNoJibFile ? fetch(boomNoJibFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        var fetchJib    = jibFile       ? fetch(jibFile,       _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        var fetchJib       = jibFile       ? fetch(jibFile,       _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
         return Promise.all([fetchBoom, fetchBoomNoJib, fetchJib]).then(function (res) { return { meta: meta, boomNormal: res[0], boomNoJib: res[1], jib: res[2] }; });
       })
       .then(function (d) {
@@ -783,8 +786,8 @@ function App() {
     if (!selected) return;
     var bs = selected.boomSteps || [];
     if (initedCraneRef.current === selected.id) return; // 同一機種 → 選択状態を保持
-    if (bs.length === 0) return;                         // データ未着 → ロード後の再実行で初期化
-    initedCraneRef.current = selected.id;
+    if (bs.length === 0) return;                         // データ未着 → ロード後の再実行で初期化（ここより前に書かない）
+    initedCraneRef.current = selected.id;                // ← bs確定後に初めて確定マーク
 
     // ── ブーム長: 最長を自動選択 ──
     var _idx = bs.length - 1;
