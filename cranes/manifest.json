@@ -14,7 +14,7 @@
       "type": "80tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 80,
-      "basePath": "cranes/SL-850Rf/"
+      "basePath": "cranes/sl-850rf/"
     },
     {
       "id": "GR-700N-1",
@@ -22,7 +22,7 @@
       "type": "70tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 70,
-      "basePath": "cranes/GR-700N-1/"
+      "basePath": "cranes/gr-700n-1/"
     },
     {
       "id": "SL-500Rf",
@@ -30,7 +30,7 @@
       "type": "50tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 50,
-      "basePath": "cranes/SL-500Rf/"
+      "basePath": "cranes/sl-500rf/"
     },
     {
       "id": "MR-350SL",
@@ -38,7 +38,7 @@
       "type": "35tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 35,
-      "basePath": "cranes/MR-350SL/"
+      "basePath": "cranes/mr-350sl/"
     },
     {
       "id": "GR-250N",
@@ -46,7 +46,7 @@
       "type": "25tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 25,
-      "basePath": "cranes/GR-250N/"
+      "basePath": "cranes/gr-250n/"
     },
     {
       "id": "SR-250Rf",
@@ -54,23 +54,7 @@
       "type": "25tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 25,
-      "basePath": "cranes/SR-250Rf/"
-    },
-    {
-      "id": "MR-250Rf",
-      "name": "25tRC(MR-250Rf)",
-      "type": "25tラフタークレーン",
-      "vehicleType": "roughterrain",
-      "cap": 25,
-      "basePath": "cranes/MR-250Rf/"
-    },
-    {
-      "id": "MR-200Rf",
-      "name": "20tRC(MR-200Rf)",
-      "type": "20tラフタークレーン",
-      "vehicleType": "roughterrain",
-      "cap": 20,
-      "basePath": "cranes/MR-200Rf/"
+      "basePath": "cranes/sr-250rf/"
     },
     {
       "id": "GR-160N1",
@@ -78,7 +62,7 @@
       "type": "16tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 16,
-      "basePath": "cranes/GR-160N1/"
+      "basePath": "cranes/gr-160n1/"
     },
     {
       "id": "MR-130Ri",
@@ -86,7 +70,7 @@
       "type": "13tラフタークレーン",
       "vehicleType": "roughterrain",
       "cap": 13,
-      "basePath": "cranes/MR-130Ri/"
+      "basePath": "cranes/mr-130ri/"
     },
     {
       "id": "CC985S-1-S",
@@ -94,7 +78,7 @@
       "type": "4.9tCC",
       "vehicleType": "crawler",
       "cap": 4,
-      "basePath": "cranes/CC985S-1-S/"
+      "basePath": "cranes/cc985s-1-s/"
     },
     {
       "id": "CC985S-1-W",
@@ -102,7 +86,7 @@
       "type": "4.9tCC",
       "vehicleType": "crawler",
       "cap": 4,
-      "basePath": "cranes/CC985S-1-W/"
+      "basePath": "cranes/cc985s-1-w/"
     },
     {
       "id": "CC1485S-1-HW-S",
@@ -110,7 +94,7 @@
       "type": "4.9tCCﾍﾋﾞｰｳｪｲﾄ",
       "vehicleType": "crawler",
       "cap": 4,
-      "basePath": "cranes/CC1485S-1-HW-S/"
+      "basePath": "cranes/cc1485s-1-hw-s/"
     },
     {
       "id": "CC1485S-1-HW-W",
@@ -118,7 +102,7 @@
       "type": "4.9tCCﾍﾋﾞｰｳｪｲﾄ",
       "vehicleType": "crawler",
       "cap": 4,
-      "basePath": "cranes/CC1485S-1-HW-W/"
+      "basePath": "cranes/cc1485s-1-hw-w/"
     }
   ]
 }
