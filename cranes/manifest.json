@@ -1,6 +1,14 @@
 {
   "cranes": [
     {
+      "id": "KA-1100R",
+      "name": "110tAC(KA-1100R)",
+      "type": "110tオールテレーンクレーン",
+      "vehicleType": "allterrain",
+      "cap": 110,
+      "basePath": "cranes/KA-1100R/"
+    },
+    {
       "id": "SL-850Rf",
       "name": "80tRC(SL-850Rf2)",
       "type": "80tラフタークレーン",
@@ -47,6 +55,22 @@
       "vehicleType": "roughterrain",
       "cap": 25,
       "basePath": "cranes/SR-250Rf/"
+    },
+    {
+      "id": "MR-250Rf",
+      "name": "25tRC(MR-250Rf)",
+      "type": "25tラフタークレーン",
+      "vehicleType": "roughterrain",
+      "cap": 25,
+      "basePath": "cranes/MR-250Rf/"
+    },
+    {
+      "id": "MR-200Rf",
+      "name": "20tRC(MR-200Rf)",
+      "type": "20tラフタークレーン",
+      "vehicleType": "roughterrain",
+      "cap": 20,
+      "basePath": "cranes/MR-200Rf/"
     },
     {
       "id": "GR-160N1",

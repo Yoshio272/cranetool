@@ -1,0 +1,165 @@
+{
+  "id": "KA-1100R",
+  "name": "110tAC(KA-1100R)",
+  "maker": "KATO",
+  "type": "110tオールテレーンクレーン",
+  "cap_t": 110,
+  "vehicleType": "allterrain",
+  "engine": "legacy",
+  "boomSections": 6,
+  "boom_steps": [
+    11.1,
+    14.8,
+    18.5,
+    22.1,
+    25.8,
+    29.5,
+    33.2,
+    36.9,
+    40.5,
+    44.2,
+    47.9,
+    51.3
+  ],
+  "min_r_m": 2.5,
+  "max_h_m": 52.2,
+  "max_h_jib_m": 72.3,
+  "maxR_boom": 48.0,
+  "maxR_jib": 57.7,
+  "boom_foot_x": -2.0,
+  "boom_foot_y": 3.455,
+  "outrigger_m": 7.2,
+  "outrigger_options": [
+    {
+      "m": 7.2,
+      "label": "7.2m"
+    },
+    {
+      "m": 6.0,
+      "label": "6.0m"
+    },
+    {
+      "m": 5.0,
+      "label": "5.0m"
+    }
+  ],
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true,
+    "jib_config": true
+  },
+  "jib_options": [
+    {
+      "m": 8.8,
+      "label": "8.8m",
+      "offsets": [
+        5,
+        15,
+        30,
+        45,
+        60
+      ],
+      "validBooms": [
+        33.2,
+        40.5,
+        47.9,
+        51.3
+      ]
+    },
+    {
+      "m": 14.6,
+      "label": "14.6m",
+      "offsets": [
+        5,
+        15,
+        30,
+        45,
+        60
+      ],
+      "validBooms": [
+        33.2,
+        40.5,
+        47.9,
+        51.3
+      ]
+    },
+    {
+      "m": 20.4,
+      "label": "20.4m",
+      "offsets": [
+        5,
+        15,
+        30,
+        45,
+        60
+      ],
+      "validBooms": [
+        33.2,
+        40.5,
+        47.9,
+        51.3
+      ]
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_55t",
+      "name": "55tフック",
+      "ton": 55.0,
+      "weight_t": 0.65,
+      "hookHeight_m": 2.2,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 25.8
+    },
+    {
+      "id": "hook_37t",
+      "name": "37tフック",
+      "ton": 37.0,
+      "weight_t": 0.4,
+      "hookHeight_m": 2.2,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 41.3
+    },
+    {
+      "id": "hook_5.6t",
+      "name": "5.6tフック(4本)",
+      "ton": 5.6,
+      "weight_t": 0.15,
+      "hookHeight_m": 3.0,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 41.3
+    },
+    {
+      "id": "hook_5.6t_jib",
+      "name": "5.6tフック(1本)",
+      "ton": 5.6,
+      "weight_t": 0.15,
+      "hookHeight_m": 3.0,
+      "usableFor": [
+        "main",
+        "jib"
+      ],
+      "boomMax": NaN
+    }
+  ],
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_nojib": "loadchart/boom_nojib.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 7.2,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  }
+}

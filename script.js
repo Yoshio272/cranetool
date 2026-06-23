@@ -68,6 +68,7 @@ function getCaps(crane) {
     counterweight: !!cap.counterweight,
     boom_mode:     !!(cap.boomMode || cap.boom_mode),
     jib:           !!cap.jib,
+    jib_config:    !!(cap.jib_config),   // ジブ横抱え/横抱無し切替
   };
 }
 function hasCaps(crane) {
@@ -659,7 +660,7 @@ function App() {
   var _manifestList = s([]);    var manifestList = _manifestList[0], setManifestList = _manifestList[1];
   var _manifestLoaded=s(false); var manifestLoaded=_manifestLoaded[0], setManifestLoaded=_manifestLoaded[1];
   var _craneCache   = s({});    var craneCache = _craneCache[0],  setCraneCache   = _craneCache[1];
-  var _rtState      = s({ _craneId: null, outrigger_m: null, counterweight: true, boom_mode: 'normal', jib_m: null, jib_offset: 5, selectedHookId: null });
+  var _rtState      = s({ _craneId: null, outrigger_m: null, counterweight: true, boom_mode: 'normal', jib_m: null, jib_offset: 5, selectedHookId: null, jib_config: 'yokodakae' });
   var rtState = _rtState[0], setRtState = _rtState[1];
   var _sl850lastRef = useRef(null);  // render中に書き込むのでuseRef（setStateは不可）
   var sl850LastResult = null;       // render中に直接代入される変数
@@ -700,24 +701,28 @@ function App() {
       .catch(function () { return null; })
       .then(function (meta) {
         var files = (meta && meta.data_files) || { boom_normal: 'boom_normal.json', jib: 'jib.json' };
-        var hasJibCap = !!(meta && meta.capabilities && meta.capabilities.jib);
-        var boomFile = files.boom_normal ? base + files.boom_normal : null;
-        var jibFile  = (hasJibCap && files.jib) ? base + files.jib : null;   // ジブ対応機種のみ読込（クローラ等の404回避）
-        var fetchBoom = boomFile ? fetch(boomFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        var fetchJib  = jibFile  ? fetch(jibFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        return Promise.all([fetchBoom, fetchJib]).then(function (res) { return { meta: meta, boomNormal: res[0], jib: res[1] }; });
+        var hasJibCap    = !!(meta && meta.capabilities && meta.capabilities.jib);
+        var hasJibConfig = !!(meta && meta.capabilities && meta.capabilities.jib_config);
+        var boomFile    = files.boom_normal ? base + files.boom_normal : null;
+        var boomNoJibFile = (hasJibConfig && files.boom_nojib) ? base + files.boom_nojib : null;
+        var jibFile     = (hasJibCap && files.jib) ? base + files.jib : null;   // ジブ対応機種のみ読込（クローラ等の404回避）
+        var fetchBoom      = boomFile      ? fetch(boomFile,      _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        var fetchBoomNoJib = boomNoJibFile ? fetch(boomNoJibFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        var fetchJib    = jibFile       ? fetch(jibFile,       _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        return Promise.all([fetchBoom, fetchBoomNoJib, fetchJib]).then(function (res) { return { meta: meta, boomNormal: res[0], boomNoJib: res[1], jib: res[2] }; });
       })
       .then(function (d) {
         setCraneCache(function (prev) {
           var next = Object.assign({}, prev);
           next[id] = {
-            meta:     d.meta,
-            boom_raw: d.boomNormal || null,
-            jib_raw:  d.jib        || null,
-            tbl:      d.boomNormal && d.boomNormal.tbl ? d.boomNormal.tbl : null,
-            jibData:  d.jib        && d.jib.jibData    ? d.jib.jibData   : null,
-            loaded:   true,
-            error:    null,
+            meta:          d.meta,
+            boom_raw:      d.boomNormal || null,
+            boom_raw_nojib: d.boomNoJib || null,
+            jib_raw:       d.jib        || null,
+            tbl:           d.boomNormal && d.boomNormal.tbl ? d.boomNormal.tbl : null,
+            jibData:       d.jib        && d.jib.jibData    ? d.jib.jibData   : null,
+            loaded:        true,
+            error:         null,
           };
           return next;
         });
@@ -927,7 +932,11 @@ function App() {
       }
     } else if (_lctx) {
       // outriggers形式のloadchart（新機種）優先 → 旧tbl形式フォールバック
-      var _boomRaw = craneCache[selected.id] && craneCache[selected.id].boom_raw;
+      var _cachedEntry = craneCache[selected.id];
+      // jib_config='nojib' のときは boom_raw_nojib を優先使用
+      var _boomRaw = (_cachedEntry && rtState.jib_config === 'nojib' && _cachedEntry.boom_raw_nojib)
+        ? _cachedEntry.boom_raw_nojib
+        : (_cachedEntry && _cachedEntry.boom_raw);
       if (_boomRaw && _boomRaw.outriggers) {
         var _outrMmLookup = rtState.outrigger_m ? Math.round(rtState.outrigger_m * 1000) : 7600;
         curCap = lookupBoomNormal(_boomRaw, {
@@ -1202,6 +1211,12 @@ function App() {
           ce('div', { className: 'jib-seg-group' },
             ce('button', { className: 'jib-seg-btn' + (rtState.counterweight ? ' active' : ''), onClick: function () { updRtGlobal({ counterweight: true }); } }, 'CW付'),
             ce('button', { className: 'jib-seg-btn' + (!rtState.counterweight ? ' active' : ''), onClick: function () { updRtGlobal({ counterweight: false, boom_mode: 'normal', jib_m: null }); } }, 'CW無'))) : null,
+        // ジブ横抱え/横抱無し切替（jib_config対応機種のみ・ジブ未使用時のみ表示）
+        sup.jib_config && rtState.jib_m === null ? ce('div', { className: 'sl850-cell' },
+          ce('div', { className: 'control-label' }, 'ジブ横抱え'),
+          ce('div', { className: 'jib-seg-group' },
+            ce('button', { className: 'jib-seg-btn' + (rtState.jib_config === 'yokodakae' ? ' active' : ''), onClick: function () { updRtGlobal({ jib_config: 'yokodakae' }); } }, '横抱え'),
+            ce('button', { className: 'jib-seg-btn' + (rtState.jib_config === 'nojib' ? ' active' : ''), onClick: function () { updRtGlobal({ jib_config: 'nojib' }); } }, '横抱無'))) : null,
         // ブームモード（該当機種のみ）
         sup.boom_mode ? ce('div', { className: 'sl850-cell' },
           ce('div', { className: 'control-label' }, 'ブームモード'),
