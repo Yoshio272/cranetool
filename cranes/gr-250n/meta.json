@@ -1,0 +1,111 @@
+{
+  "id": "GR-250N",
+  "name": "25tRC(GR-250N)",
+  "maker": "TADANO",
+  "type": "25tラフタークレーン",
+  "cap_t": 25,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    9.35,
+    16.4,
+    23.45,
+    30.5
+  ],
+  "min_r_m": 2.5,
+  "maxR_boom": 30.5,
+  "outrigger_m": 6.5,
+  "outrigger_options": [
+    {
+      "m": 6.5,
+      "label": "6.5m"
+    },
+    {
+      "m": 6.1,
+      "label": "6.1m"
+    },
+    {
+      "m": 5.0,
+      "label": "5.0m"
+    },
+    {
+      "m": 3.6,
+      "label": "3.6m"
+    }
+  ],
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "jib_options": [
+    {
+      "m": 8.5,
+      "label": "8.5m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.45,
+        30.5
+      ]
+    },
+    {
+      "m": 13.0,
+      "label": "13.0m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.45,
+        30.5
+      ]
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_25t",
+      "name": "25tフック",
+      "ton": 25,
+      "weight_t": 0.23,
+      "hookHeight_m": 1.9,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": null
+    },
+    {
+      "id": "hook_4t_jib",
+      "name": "4tフック(ジブ)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.0,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 6.5,
+    "counterweight": false,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "boom_foot_x": -2.4,
+  "boom_foot_y": 3.2,
+  "maxR_jib": 40.0
+}
