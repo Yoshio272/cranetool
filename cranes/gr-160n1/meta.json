@@ -1,0 +1,153 @@
+{
+  "id": "GR-160N1",
+  "name": "16tRC(GR-160N1)",
+  "maker": "TADANO",
+  "model": "CREVO160",
+  "type": "16tラフタークレーン",
+  "cap_t": 16,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    6.5,
+    10.7,
+    14.9,
+    19.1,
+    23.3,
+    27.5
+  ],
+  "min_r_m": 2.38,
+  "max_h_m": 30.0,
+  "outrigger_m": 5.2,
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "outrigger_options": [
+    {
+      "m": 5.2,
+      "label": "5.2m"
+    },
+    {
+      "m": 4.8,
+      "label": "4.8m"
+    },
+    {
+      "m": 4.4,
+      "label": "4.4m"
+    },
+    {
+      "m": 3.2,
+      "label": "3.2m"
+    }
+  ],
+  "jib_options": [
+    {
+      "m": 4.5,
+      "label": "4.5m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.3,
+        27.5
+      ]
+    },
+    {
+      "m": 6.9,
+      "label": "6.9m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.3,
+        27.5
+      ]
+    }
+  ],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_16t",
+      "name": "16tフック",
+      "ton": 16,
+      "weight_t": 0.14,
+      "hookHeight_m": 1.8,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 27.5
+    },
+    {
+      "id": "hook_3.2t_jib",
+      "name": "3.2tフック(1本)",
+      "ton": 3,
+      "weight_t": 0.06,
+      "hookHeight_m": 1.8,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_16t",
+      "name": "16tフック",
+      "ton": 16,
+      "weight_t": 0.14,
+      "hookHeight_m": 1.8,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 27.5
+    },
+    {
+      "id": "hook_3.2t_jib",
+      "name": "3.2tフック(1本)",
+      "ton": 3,
+      "weight_t": 0.06,
+      "hookHeight_m": 1.8,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "jib_hook_default": "hook_3.2t_jib",
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 5.2,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "max_h_jib_m": 34.0,
+  "maxR_boom": 24.0,
+  "maxR": 24.0,
+  "maxR_jib": 27.2,
+  "boom_foot_x": -2.02,
+  "boom_foot_y": 3.017
+}

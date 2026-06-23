@@ -1,0 +1,245 @@
+{
+  "id": "SL-850Rf",
+  "name": "80tRC(SL-850Rf2)",
+  "maker": "KATO",
+  "model": "KR-80H-F",
+  "type": "80tラフタークレーン",
+  "cap_t": 80,
+  "vehicleType": "roughterrain",
+  "engine": "sl850",
+  "boomSections": 5,
+  "boom_steps": [
+    10.0,
+    13.0,
+    17.0,
+    20.0,
+    24.0,
+    31.0,
+    38.0,
+    42.0,
+    45.0
+  ],
+  "boom_steps_special": [
+    17.0,
+    24.0,
+    31.0
+  ],
+  "min_r_m": 2.2,
+  "max_h_m": 46.0,
+  "outrigger_m": 7.6,
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": true,
+    "boomMode": true,
+    "jib": true
+  },
+  "outrigger_options": [
+    {
+      "m": 7.6,
+      "label": "全張出 7.6m"
+    },
+    {
+      "m": 7.2,
+      "label": "7.2m"
+    },
+    {
+      "m": 6.5,
+      "label": "6.5m"
+    },
+    {
+      "m": 5.4,
+      "label": "5.4m"
+    },
+    {
+      "m": 4.3,
+      "label": "4.3m"
+    },
+    {
+      "m": 2.55,
+      "label": "最小 2.55m"
+    }
+  ],
+  "jib_options": [
+    {
+      "m": 9.52,
+      "label": "9.52m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        24.0,
+        31.0,
+        45.0
+      ]
+    },
+    {
+      "m": 13.8,
+      "label": "13.8m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        24.0,
+        31.0,
+        45.0
+      ]
+    },
+    {
+      "m": 18.0,
+      "label": "18.0m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        24.0,
+        31.0,
+        45.0
+      ]
+    }
+  ],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    },
+    {
+      "key": "special",
+      "label": "特殊伸縮（CW付のみ）"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_80t",
+      "name": "80tフック",
+      "ton": 80,
+      "weight_t": 0.83,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": null,
+      "parts": 20,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.0
+    },
+    {
+      "id": "hook_40t",
+      "name": "40tフック",
+      "ton": 40,
+      "weight_t": 0.47,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": null,
+      "parts": 10,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 24.0
+    },
+    {
+      "id": "hook_35t",
+      "name": "35tフック",
+      "ton": 35,
+      "weight_t": 0.33,
+      "hookHeight_boom_m": 2.1,
+      "hookHeight_jib_m": null,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 45.0
+    },
+    {
+      "id": "hook_5t",
+      "name": "5tフック",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "main",
+        "jib"
+      ]
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_80t",
+      "name": "80tフック",
+      "ton": 80,
+      "weight_t": 0.83,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": null,
+      "parts": 20,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.0
+    },
+    {
+      "id": "hook_40t",
+      "name": "40tフック",
+      "ton": 40,
+      "weight_t": 0.47,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": null,
+      "parts": 10,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 24.0
+    },
+    {
+      "id": "hook_35t",
+      "name": "35tフック",
+      "ton": 35,
+      "weight_t": 0.33,
+      "hookHeight_boom_m": 2.1,
+      "hookHeight_jib_m": null,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 45.0
+    },
+    {
+      "id": "hook_5t",
+      "name": "5tフック",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_boom_m": 2.5,
+      "hookHeight_jib_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "main",
+        "jib"
+      ]
+    }
+  ],
+  "jib_hook_default": "hook_5t",
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 7.6,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "maxR_boom": 41,
+  "maxR": 41,
+  "maxR_jib": 55,
+  "boom_foot_x": -2.94,
+  "boom_foot_y": 3.665
+}

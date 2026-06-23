@@ -1,0 +1,2333 @@
+{
+  "_comment": "GR-160N1 ジブ定格表",
+  "outriggers": {
+    "5200": {
+      "true": {
+        "27.5": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 34,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.9,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.95
+                  },
+                  "65": {
+                    "radius_m": 13.8,
+                    "capacity_t": 1.65
+                  },
+                  "60": {
+                    "radius_m": 16.2,
+                    "capacity_t": 1.35
+                  },
+                  "55": {
+                    "radius_m": 18.4,
+                    "capacity_t": 1.0
+                  },
+                  "50": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.75
+                  },
+                  "45": {
+                    "radius_m": 22.4,
+                    "capacity_t": 0.54
+                  },
+                  "40": {
+                    "radius_m": 24.1,
+                    "capacity_t": 0.38
+                  },
+                  "35": {
+                    "radius_m": 25.6,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 34,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.6,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.7
+                  },
+                  "70": {
+                    "radius_m": 12.5,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 17.4,
+                    "capacity_t": 1.2
+                  },
+                  "55": {
+                    "radius_m": 19.6,
+                    "capacity_t": 0.95
+                  },
+                  "50": {
+                    "radius_m": 21.5,
+                    "capacity_t": 0.71
+                  },
+                  "45": {
+                    "radius_m": 23.3,
+                    "capacity_t": 0.52
+                  },
+                  "40": {
+                    "radius_m": 24.9,
+                    "capacity_t": 0.37
+                  },
+                  "35": {
+                    "radius_m": 26.2,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.7,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 10.8,
+                    "capacity_t": 1.4
+                  },
+                  "70": {
+                    "radius_m": 13.4,
+                    "capacity_t": 1.25
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 1.15
+                  },
+                  "60": {
+                    "radius_m": 18.1,
+                    "capacity_t": 1.1
+                  },
+                  "55": {
+                    "radius_m": 20.1,
+                    "capacity_t": 0.95
+                  },
+                  "50": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.71
+                  },
+                  "45": {
+                    "radius_m": 23.5,
+                    "capacity_t": 0.5
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.2,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 16.0,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 18.2,
+                    "capacity_t": 1.1
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 34,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.5,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 9.2,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 12.3,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 17.7,
+                    "capacity_t": 1.1
+                  },
+                  "55": {
+                    "radius_m": 20.1,
+                    "capacity_t": 0.89
+                  },
+                  "50": {
+                    "radius_m": 22.4,
+                    "capacity_t": 0.66
+                  },
+                  "45": {
+                    "radius_m": 24.4,
+                    "capacity_t": 0.47
+                  },
+                  "40": {
+                    "radius_m": 26.2,
+                    "capacity_t": 0.32
+                  },
+                  "35": {
+                    "radius_m": 27.8,
+                    "capacity_t": 0.21
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.0,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 14.3,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 17.0,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 19.6,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.77
+                  },
+                  "50": {
+                    "radius_m": 24.0,
+                    "capacity_t": 0.61
+                  },
+                  "45": {
+                    "radius_m": 25.8,
+                    "capacity_t": 0.43
+                  },
+                  "40": {
+                    "radius_m": 27.4,
+                    "capacity_t": 0.3
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.6,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 12.9,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 18.1,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 22.7,
+                    "capacity_t": 0.66
+                  },
+                  "50": {
+                    "radius_m": 24.6,
+                    "capacity_t": 0.6
+                  },
+                  "45": {
+                    "radius_m": 26.1,
+                    "capacity_t": 0.4
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 9.7,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 13.8,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 21.1,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        },
+        "23.3": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 19,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.2,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 6.9,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 9.3,
+                    "capacity_t": 2.0
+                  },
+                  "65": {
+                    "radius_m": 11.5,
+                    "capacity_t": 2.0
+                  },
+                  "60": {
+                    "radius_m": 13.7,
+                    "capacity_t": 1.85
+                  },
+                  "55": {
+                    "radius_m": 15.6,
+                    "capacity_t": 1.4
+                  },
+                  "50": {
+                    "radius_m": 17.4,
+                    "capacity_t": 1.05
+                  },
+                  "45": {
+                    "radius_m": 19.1,
+                    "capacity_t": 0.84
+                  },
+                  "40": {
+                    "radius_m": 20.6,
+                    "capacity_t": 0.64
+                  },
+                  "35": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.49
+                  },
+                  "30": {
+                    "radius_m": 23.1,
+                    "capacity_t": 0.37
+                  },
+                  "25": {
+                    "radius_m": 24.0,
+                    "capacity_t": 0.29
+                  },
+                  "20": {
+                    "radius_m": 24.8,
+                    "capacity_t": 0.23
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 24,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.8,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 1.9
+                  },
+                  "70": {
+                    "radius_m": 10.7,
+                    "capacity_t": 1.75
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.65
+                  },
+                  "60": {
+                    "radius_m": 14.9,
+                    "capacity_t": 1.55
+                  },
+                  "55": {
+                    "radius_m": 16.7,
+                    "capacity_t": 1.3
+                  },
+                  "50": {
+                    "radius_m": 18.4,
+                    "capacity_t": 1.0
+                  },
+                  "45": {
+                    "radius_m": 20.0,
+                    "capacity_t": 0.8
+                  },
+                  "40": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.62
+                  },
+                  "35": {
+                    "radius_m": 22.5,
+                    "capacity_t": 0.48
+                  },
+                  "30": {
+                    "radius_m": 23.5,
+                    "capacity_t": 0.37
+                  },
+                  "25": {
+                    "radius_m": 24.4,
+                    "capacity_t": 0.29
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.9,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 9.3,
+                    "capacity_t": 1.45
+                  },
+                  "70": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.4
+                  },
+                  "65": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.5,
+                    "capacity_t": 1.35
+                  },
+                  "55": {
+                    "radius_m": 17.3,
+                    "capacity_t": 1.3
+                  },
+                  "50": {
+                    "radius_m": 18.8,
+                    "capacity_t": 1.0
+                  },
+                  "45": {
+                    "radius_m": 20.2,
+                    "capacity_t": 0.8
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.4,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 9.7,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 11.8,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 13.7,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 15.6,
+                    "capacity_t": 1.1
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 19,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.7,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 7.8,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 10.4,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.2
+                  },
+                  "55": {
+                    "radius_m": 17.3,
+                    "capacity_t": 1.05
+                  },
+                  "50": {
+                    "radius_m": 19.3,
+                    "capacity_t": 0.98
+                  },
+                  "45": {
+                    "radius_m": 21.0,
+                    "capacity_t": 0.73
+                  },
+                  "40": {
+                    "radius_m": 22.7,
+                    "capacity_t": 0.56
+                  },
+                  "35": {
+                    "radius_m": 24.1,
+                    "capacity_t": 0.42
+                  },
+                  "30": {
+                    "radius_m": 25.3,
+                    "capacity_t": 0.32
+                  },
+                  "25": {
+                    "radius_m": 26.4,
+                    "capacity_t": 0.24
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 24,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.1,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 12.4,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 14.7,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 16.9,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.77
+                  },
+                  "50": {
+                    "radius_m": 20.7,
+                    "capacity_t": 0.74
+                  },
+                  "45": {
+                    "radius_m": 22.4,
+                    "capacity_t": 0.68
+                  },
+                  "40": {
+                    "radius_m": 23.8,
+                    "capacity_t": 0.52
+                  },
+                  "35": {
+                    "radius_m": 25.0,
+                    "capacity_t": 0.4
+                  },
+                  "30": {
+                    "radius_m": 26.1,
+                    "capacity_t": 0.31
+                  },
+                  "25": {
+                    "radius_m": 26.9,
+                    "capacity_t": 0.23
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.8,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 11.4,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 13.7,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 17.8,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 19.7,
+                    "capacity_t": 0.66
+                  },
+                  "50": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.66
+                  },
+                  "45": {
+                    "radius_m": 22.8,
+                    "capacity_t": 0.64
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.8,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 12.2,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 14.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 18.3,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4800": {
+      "true": {
+        "27.5": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.9,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.95
+                  },
+                  "65": {
+                    "radius_m": 13.8,
+                    "capacity_t": 1.65
+                  },
+                  "60": {
+                    "radius_m": 16.1,
+                    "capacity_t": 1.15
+                  },
+                  "55": {
+                    "radius_m": 18.3,
+                    "capacity_t": 0.84
+                  },
+                  "50": {
+                    "radius_m": 20.4,
+                    "capacity_t": 0.59
+                  },
+                  "45": {
+                    "radius_m": 22.3,
+                    "capacity_t": 0.4
+                  },
+                  "40": {
+                    "radius_m": 24.0,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.6,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.7
+                  },
+                  "70": {
+                    "radius_m": 12.5,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 17.4,
+                    "capacity_t": 1.05
+                  },
+                  "55": {
+                    "radius_m": 19.5,
+                    "capacity_t": 0.78
+                  },
+                  "50": {
+                    "radius_m": 21.4,
+                    "capacity_t": 0.56
+                  },
+                  "45": {
+                    "radius_m": 23.2,
+                    "capacity_t": 0.38
+                  },
+                  "40": {
+                    "radius_m": 24.8,
+                    "capacity_t": 0.23
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.7,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 10.8,
+                    "capacity_t": 1.4
+                  },
+                  "70": {
+                    "radius_m": 13.4,
+                    "capacity_t": 1.25
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 1.15
+                  },
+                  "60": {
+                    "radius_m": 18.1,
+                    "capacity_t": 1.05
+                  },
+                  "55": {
+                    "radius_m": 20.0,
+                    "capacity_t": 0.77
+                  },
+                  "50": {
+                    "radius_m": 21.8,
+                    "capacity_t": 0.56
+                  },
+                  "45": {
+                    "radius_m": 23.5,
+                    "capacity_t": 0.38
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.2,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 16.0,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 18.1,
+                    "capacity_t": 1.0
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.5,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 9.2,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 12.3,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 17.7,
+                    "capacity_t": 1.05
+                  },
+                  "55": {
+                    "radius_m": 20.1,
+                    "capacity_t": 0.78
+                  },
+                  "50": {
+                    "radius_m": 22.3,
+                    "capacity_t": 0.55
+                  },
+                  "45": {
+                    "radius_m": 24.3,
+                    "capacity_t": 0.36
+                  },
+                  "40": {
+                    "radius_m": 26.1,
+                    "capacity_t": 0.23
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.0,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 14.3,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 17.0,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 19.6,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.71
+                  },
+                  "50": {
+                    "radius_m": 23.9,
+                    "capacity_t": 0.5
+                  },
+                  "45": {
+                    "radius_m": 25.7,
+                    "capacity_t": 0.34
+                  },
+                  "40": {
+                    "radius_m": 27.3,
+                    "capacity_t": 0.21
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.6,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 12.9,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 18.1,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 22.7,
+                    "capacity_t": 0.66
+                  },
+                  "50": {
+                    "radius_m": 24.5,
+                    "capacity_t": 0.48
+                  },
+                  "45": {
+                    "radius_m": 26.1,
+                    "capacity_t": 0.32
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 9.7,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 13.8,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 21.1,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        },
+        "23.3": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 29,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.2,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 6.9,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 9.3,
+                    "capacity_t": 2.0
+                  },
+                  "65": {
+                    "radius_m": 11.5,
+                    "capacity_t": 2.0
+                  },
+                  "60": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.65
+                  },
+                  "55": {
+                    "radius_m": 15.6,
+                    "capacity_t": 1.2
+                  },
+                  "50": {
+                    "radius_m": 17.4,
+                    "capacity_t": 0.92
+                  },
+                  "45": {
+                    "radius_m": 19.0,
+                    "capacity_t": 0.69
+                  },
+                  "40": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.51
+                  },
+                  "35": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.37
+                  },
+                  "30": {
+                    "radius_m": 23.0,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 29,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.8,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 1.9
+                  },
+                  "70": {
+                    "radius_m": 10.7,
+                    "capacity_t": 1.75
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.65
+                  },
+                  "60": {
+                    "radius_m": 14.9,
+                    "capacity_t": 1.5
+                  },
+                  "55": {
+                    "radius_m": 16.7,
+                    "capacity_t": 1.15
+                  },
+                  "50": {
+                    "radius_m": 18.4,
+                    "capacity_t": 0.87
+                  },
+                  "45": {
+                    "radius_m": 19.9,
+                    "capacity_t": 0.67
+                  },
+                  "40": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.49
+                  },
+                  "35": {
+                    "radius_m": 22.5,
+                    "capacity_t": 0.36
+                  },
+                  "30": {
+                    "radius_m": 23.5,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.9,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 9.3,
+                    "capacity_t": 1.45
+                  },
+                  "70": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.4
+                  },
+                  "65": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.5,
+                    "capacity_t": 1.35
+                  },
+                  "55": {
+                    "radius_m": 17.2,
+                    "capacity_t": 1.1
+                  },
+                  "50": {
+                    "radius_m": 18.8,
+                    "capacity_t": 0.85
+                  },
+                  "45": {
+                    "radius_m": 20.2,
+                    "capacity_t": 0.65
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.4,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 9.7,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 11.8,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 13.7,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 15.6,
+                    "capacity_t": 1.1
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 29,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.7,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 7.8,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 10.4,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.2
+                  },
+                  "55": {
+                    "radius_m": 17.3,
+                    "capacity_t": 1.05
+                  },
+                  "50": {
+                    "radius_m": 19.2,
+                    "capacity_t": 0.8
+                  },
+                  "45": {
+                    "radius_m": 21.0,
+                    "capacity_t": 0.59
+                  },
+                  "40": {
+                    "radius_m": 22.6,
+                    "capacity_t": 0.43
+                  },
+                  "35": {
+                    "radius_m": 24.1,
+                    "capacity_t": 0.3
+                  },
+                  "30": {
+                    "radius_m": 25.3,
+                    "capacity_t": 0.21
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 34,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.1,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 12.4,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 14.7,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 16.9,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.77
+                  },
+                  "50": {
+                    "radius_m": 20.7,
+                    "capacity_t": 0.73
+                  },
+                  "45": {
+                    "radius_m": 22.3,
+                    "capacity_t": 0.54
+                  },
+                  "40": {
+                    "radius_m": 23.8,
+                    "capacity_t": 0.39
+                  },
+                  "35": {
+                    "radius_m": 25.0,
+                    "capacity_t": 0.28
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.8,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 11.4,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 13.7,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 17.8,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 19.7,
+                    "capacity_t": 0.66
+                  },
+                  "50": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.66
+                  },
+                  "45": {
+                    "radius_m": 22.7,
+                    "capacity_t": 0.5
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.8,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 12.2,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 14.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 18.3,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "4400": {
+      "true": {
+        "27.5": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.9,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.95
+                  },
+                  "65": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 16.0,
+                    "capacity_t": 0.9
+                  },
+                  "55": {
+                    "radius_m": 18.2,
+                    "capacity_t": 0.62
+                  },
+                  "50": {
+                    "radius_m": 20.3,
+                    "capacity_t": 0.41
+                  },
+                  "45": {
+                    "radius_m": 22.2,
+                    "capacity_t": 0.24
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.6,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.7
+                  },
+                  "70": {
+                    "radius_m": 12.5,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.0,
+                    "capacity_t": 1.15
+                  },
+                  "60": {
+                    "radius_m": 17.2,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 19.4,
+                    "capacity_t": 0.58
+                  },
+                  "50": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.4
+                  },
+                  "45": {
+                    "radius_m": 23.1,
+                    "capacity_t": 0.22
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.7,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 10.8,
+                    "capacity_t": 1.4
+                  },
+                  "70": {
+                    "radius_m": 13.4,
+                    "capacity_t": 1.25
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 17.9,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 19.9,
+                    "capacity_t": 0.58
+                  },
+                  "50": {
+                    "radius_m": 21.7,
+                    "capacity_t": 0.39
+                  },
+                  "45": {
+                    "radius_m": 23.4,
+                    "capacity_t": 0.21
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.2,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 16.0,
+                    "capacity_t": 1.05
+                  },
+                  "60": {
+                    "radius_m": 18.0,
+                    "capacity_t": 0.77
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.5,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 9.2,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 12.3,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.3
+                  },
+                  "60": {
+                    "radius_m": 17.6,
+                    "capacity_t": 0.87
+                  },
+                  "55": {
+                    "radius_m": 20.0,
+                    "capacity_t": 0.57
+                  },
+                  "50": {
+                    "radius_m": 22.2,
+                    "capacity_t": 0.35
+                  },
+                  "45": {
+                    "radius_m": 24.2,
+                    "capacity_t": 0.23
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.0,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 14.3,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 17.0,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 19.5,
+                    "capacity_t": 0.8
+                  },
+                  "55": {
+                    "radius_m": 21.7,
+                    "capacity_t": 0.53
+                  },
+                  "50": {
+                    "radius_m": 23.7,
+                    "capacity_t": 0.33
+                  },
+                  "45": {
+                    "radius_m": 25.6,
+                    "capacity_t": 0.2
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.6,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 12.9,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 18.1,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 22.5,
+                    "capacity_t": 0.53
+                  },
+                  "50": {
+                    "radius_m": 24.3,
+                    "capacity_t": 0.33
+                  },
+                  "45": {
+                    "radius_m": 26.0,
+                    "capacity_t": 0.2
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 9.7,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 13.8,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 21.1,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        },
+        "23.3": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 34,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.2,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 6.9,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 9.3,
+                    "capacity_t": 2.0
+                  },
+                  "65": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.75
+                  },
+                  "60": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.26
+                  },
+                  "55": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.91
+                  },
+                  "50": {
+                    "radius_m": 17.4,
+                    "capacity_t": 0.66
+                  },
+                  "45": {
+                    "radius_m": 19.0,
+                    "capacity_t": 0.48
+                  },
+                  "40": {
+                    "radius_m": 20.5,
+                    "capacity_t": 0.34
+                  },
+                  "35": {
+                    "radius_m": 21.9,
+                    "capacity_t": 0.2
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.8,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 1.9
+                  },
+                  "70": {
+                    "radius_m": 10.7,
+                    "capacity_t": 1.75
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.5
+                  },
+                  "60": {
+                    "radius_m": 14.8,
+                    "capacity_t": 1.1
+                  },
+                  "55": {
+                    "radius_m": 16.6,
+                    "capacity_t": 0.84
+                  },
+                  "50": {
+                    "radius_m": 18.3,
+                    "capacity_t": 0.63
+                  },
+                  "45": {
+                    "radius_m": 19.8,
+                    "capacity_t": 0.45
+                  },
+                  "40": {
+                    "radius_m": 21.2,
+                    "capacity_t": 0.29
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.9,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 9.3,
+                    "capacity_t": 1.45
+                  },
+                  "70": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.4
+                  },
+                  "65": {
+                    "radius_m": 13.6,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.4,
+                    "capacity_t": 1.05
+                  },
+                  "55": {
+                    "radius_m": 17.1,
+                    "capacity_t": 0.8
+                  },
+                  "50": {
+                    "radius_m": 18.7,
+                    "capacity_t": 0.61
+                  },
+                  "45": {
+                    "radius_m": 20.1,
+                    "capacity_t": 0.45
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.4,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 9.7,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 11.8,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 13.7,
+                    "capacity_t": 1.1
+                  },
+                  "60": {
+                    "radius_m": 15.5,
+                    "capacity_t": 1.0
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.7,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 7.8,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 10.4,
+                    "capacity_t": 1.5
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 1.4
+                  },
+                  "60": {
+                    "radius_m": 15.1,
+                    "capacity_t": 1.2
+                  },
+                  "55": {
+                    "radius_m": 17.2,
+                    "capacity_t": 0.85
+                  },
+                  "50": {
+                    "radius_m": 19.2,
+                    "capacity_t": 0.63
+                  },
+                  "45": {
+                    "radius_m": 21.0,
+                    "capacity_t": 0.46
+                  },
+                  "40": {
+                    "radius_m": 22.6,
+                    "capacity_t": 0.31
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 39,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.1,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 12.4,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 14.7,
+                    "capacity_t": 0.88
+                  },
+                  "60": {
+                    "radius_m": 16.9,
+                    "capacity_t": 0.82
+                  },
+                  "55": {
+                    "radius_m": 18.9,
+                    "capacity_t": 0.77
+                  },
+                  "50": {
+                    "radius_m": 20.7,
+                    "capacity_t": 0.56
+                  },
+                  "45": {
+                    "radius_m": 22.3,
+                    "capacity_t": 0.38
+                  },
+                  "40": {
+                    "radius_m": 23.7,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 44,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.8,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 11.4,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 13.7,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 17.8,
+                    "capacity_t": 0.67
+                  },
+                  "55": {
+                    "radius_m": 19.7,
+                    "capacity_t": 0.66
+                  },
+                  "50": {
+                    "radius_m": 21.3,
+                    "capacity_t": 0.54
+                  },
+                  "45": {
+                    "radius_m": 22.7,
+                    "capacity_t": 0.37
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.8,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 12.2,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 14.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 18.3,
+                    "capacity_t": 0.64
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "3200": {
+      "true": {
+        "27.5": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.9,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.4,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 10.9,
+                    "capacity_t": 1.2
+                  },
+                  "65": {
+                    "radius_m": 13.4,
+                    "capacity_t": 0.71
+                  },
+                  "60": {
+                    "radius_m": 15.8,
+                    "capacity_t": 0.39
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.6,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.7
+                  },
+                  "70": {
+                    "radius_m": 12.3,
+                    "capacity_t": 1.05
+                  },
+                  "65": {
+                    "radius_m": 14.7,
+                    "capacity_t": 0.63
+                  },
+                  "60": {
+                    "radius_m": 17.0,
+                    "capacity_t": 0.34
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.7,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 10.8,
+                    "capacity_t": 1.4
+                  },
+                  "70": {
+                    "radius_m": 13.3,
+                    "capacity_t": 0.99
+                  },
+                  "65": {
+                    "radius_m": 15.5,
+                    "capacity_t": 0.6
+                  },
+                  "60": {
+                    "radius_m": 17.6,
+                    "capacity_t": 0.32
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.2,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 11.2,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 13.6,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 15.7,
+                    "capacity_t": 0.59
+                  },
+                  "60": {
+                    "radius_m": 17.7,
+                    "capacity_t": 0.31
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.5,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 9.2,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 12.3,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 15.0,
+                    "capacity_t": 0.65
+                  },
+                  "60": {
+                    "radius_m": 17.5,
+                    "capacity_t": 0.35
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.0,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 14.3,
+                    "capacity_t": 0.9
+                  },
+                  "65": {
+                    "radius_m": 16.8,
+                    "capacity_t": 0.53
+                  },
+                  "60": {
+                    "radius_m": 19.1,
+                    "capacity_t": 0.28
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.6,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 12.9,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 18.0,
+                    "capacity_t": 0.51
+                  },
+                  "60": {
+                    "radius_m": 20.1,
+                    "capacity_t": 0.27
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 9.7,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 13.8,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 18.7,
+                    "capacity_t": 0.49
+                  },
+                  "60": {
+                    "radius_m": 20.7,
+                    "capacity_t": 0.26
+                  }
+                }
+              }
+            }
+          }
+        },
+        "23.3": {
+          "4.5": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.2,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 6.9,
+                    "capacity_t": 2.0
+                  },
+                  "70": {
+                    "radius_m": 9.3,
+                    "capacity_t": 1.7
+                  },
+                  "65": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.05
+                  },
+                  "60": {
+                    "radius_m": 13.6,
+                    "capacity_t": 0.66
+                  },
+                  "55": {
+                    "radius_m": 15.6,
+                    "capacity_t": 0.37
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 4.8,
+                    "capacity_t": 2.0
+                  },
+                  "75": {
+                    "radius_m": 8.3,
+                    "capacity_t": 1.7
+                  },
+                  "70": {
+                    "radius_m": 10.6,
+                    "capacity_t": 1.45
+                  },
+                  "65": {
+                    "radius_m": 12.7,
+                    "capacity_t": 0.95
+                  },
+                  "60": {
+                    "radius_m": 14.6,
+                    "capacity_t": 0.6
+                  },
+                  "55": {
+                    "radius_m": 16.5,
+                    "capacity_t": 0.35
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 5.9,
+                    "capacity_t": 1.55
+                  },
+                  "75": {
+                    "radius_m": 9.3,
+                    "capacity_t": 1.4
+                  },
+                  "70": {
+                    "radius_m": 11.5,
+                    "capacity_t": 1.25
+                  },
+                  "65": {
+                    "radius_m": 13.4,
+                    "capacity_t": 0.87
+                  },
+                  "60": {
+                    "radius_m": 15.3,
+                    "capacity_t": 0.55
+                  },
+                  "55": {
+                    "radius_m": 17.0,
+                    "capacity_t": 0.32
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.4,
+                    "capacity_t": 1.2
+                  },
+                  "75": {
+                    "radius_m": 9.7,
+                    "capacity_t": 1.15
+                  },
+                  "70": {
+                    "radius_m": 11.8,
+                    "capacity_t": 1.1
+                  },
+                  "65": {
+                    "radius_m": 13.7,
+                    "capacity_t": 0.85
+                  },
+                  "60": {
+                    "radius_m": 15.4,
+                    "capacity_t": 0.5
+                  }
+                }
+              }
+            }
+          },
+          "6.9": {
+            "offsets": {
+              "5": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 3.7,
+                    "capacity_t": 1.5
+                  },
+                  "75": {
+                    "radius_m": 7.8,
+                    "capacity_t": 1.5
+                  },
+                  "70": {
+                    "radius_m": 10.4,
+                    "capacity_t": 1.45
+                  },
+                  "65": {
+                    "radius_m": 12.8,
+                    "capacity_t": 0.91
+                  },
+                  "60": {
+                    "radius_m": 15.0,
+                    "capacity_t": 0.55
+                  },
+                  "55": {
+                    "radius_m": 17.1,
+                    "capacity_t": 0.31
+                  }
+                }
+              },
+              "25": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 6.1,
+                    "capacity_t": 1.3
+                  },
+                  "75": {
+                    "radius_m": 9.9,
+                    "capacity_t": 1.05
+                  },
+                  "70": {
+                    "radius_m": 12.4,
+                    "capacity_t": 0.96
+                  },
+                  "65": {
+                    "radius_m": 14.7,
+                    "capacity_t": 0.79
+                  },
+                  "60": {
+                    "radius_m": 16.7,
+                    "capacity_t": 0.5
+                  },
+                  "55": {
+                    "radius_m": 18.7,
+                    "capacity_t": 0.28
+                  }
+                }
+              },
+              "45": {
+                "danger_angle_deg": 54,
+                "entries": {
+                  "82": {
+                    "radius_m": 7.8,
+                    "capacity_t": 0.82
+                  },
+                  "75": {
+                    "radius_m": 11.4,
+                    "capacity_t": 0.75
+                  },
+                  "70": {
+                    "radius_m": 13.7,
+                    "capacity_t": 0.72
+                  },
+                  "65": {
+                    "radius_m": 15.8,
+                    "capacity_t": 0.69
+                  },
+                  "60": {
+                    "radius_m": 17.7,
+                    "capacity_t": 0.45
+                  },
+                  "55": {
+                    "radius_m": 19.5,
+                    "capacity_t": 0.25
+                  }
+                }
+              },
+              "60": {
+                "danger_angle_deg": 59,
+                "entries": {
+                  "82": {
+                    "radius_m": 8.8,
+                    "capacity_t": 0.69
+                  },
+                  "75": {
+                    "radius_m": 12.2,
+                    "capacity_t": 0.66
+                  },
+                  "70": {
+                    "radius_m": 14.4,
+                    "capacity_t": 0.65
+                  },
+                  "65": {
+                    "radius_m": 16.4,
+                    "capacity_t": 0.64
+                  },
+                  "60": {
+                    "radius_m": 18.1,
+                    "capacity_t": 0.4
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

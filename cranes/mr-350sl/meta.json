@@ -1,0 +1,213 @@
+{
+  "id": "MR-350SL",
+  "name": "35tRC(MR-350SL)",
+  "maker": "KATO",
+  "model": "6M60-TLE2A",
+  "type": "35tラフタークレーン",
+  "cap_t": 35,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    7.5,
+    12.5,
+    17.5,
+    22.5,
+    27.5,
+    32.5
+  ],
+  "min_r_m": 2.6,
+  "max_h_m": 33.4,
+  "outrigger_m": 6.8,
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "outrigger_options": [
+    {
+      "m": 6.8,
+      "label": "6.8m"
+    },
+    {
+      "m": 6.3,
+      "label": "6.3m"
+    },
+    {
+      "m": 5.2,
+      "label": "5.2m"
+    },
+    {
+      "m": 4.2,
+      "label": "4.2m"
+    }
+  ],
+  "jib_options": [
+    {
+      "m": 6.5,
+      "label": "6.5m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        32.5
+      ]
+    },
+    {
+      "m": 10.25,
+      "label": "10.25m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        32.5
+      ]
+    },
+    {
+      "m": 14.0,
+      "label": "14.0m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        32.5
+      ]
+    }
+  ],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_35t",
+      "name": "35tフック",
+      "ton": 35,
+      "weight_t": 0.31,
+      "hookHeight_m": 2.0,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 7.5
+    },
+    {
+      "id": "hook_35t",
+      "name": "22tフック",
+      "ton": 22,
+      "weight_t": 0.215,
+      "hookHeight_m": 1.9,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 32.5
+    },
+    {
+      "id": "hook_4t",
+      "name": "4tフック(4本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.1,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 32.5
+    },
+    {
+      "id": "hook_4t_jib",
+      "name": "4tフック(1本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 1.8,
+      "parts": 1,
+      "usableFor": [
+        "main",
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_35t",
+      "name": "35tフック",
+      "ton": 35,
+      "weight_t": 0.31,
+      "hookHeight_m": 2.0,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 7.5
+    },
+    {
+      "id": "hook_35t",
+      "name": "22tフック",
+      "ton": 22,
+      "weight_t": 0.215,
+      "hookHeight_m": 1.9,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 32.5
+    },
+    {
+      "id": "hook_4t",
+      "name": "4tフック(4本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.1,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 32.5
+    },
+    {
+      "id": "hook_4t_jib",
+      "name": "4tフック(1本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 1.8,
+      "parts": 1,
+      "usableFor": [
+        "main",
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "jib_hook_default": "hook_4t_jib",
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 6.8,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "max_h_jib_m": 47.3,
+  "maxR_boom": 30.0,
+  "maxR_jib": 34.4,
+  "boom_foot_x": -2.33,
+  "boom_foot_y": 3.475
+}

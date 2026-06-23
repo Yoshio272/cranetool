@@ -1,0 +1,396 @@
+/* ============================================================
+   クレーン揚重検討資料 v15 — 業務UIテーマ（白基調・青アクセント）
+   ============================================================ */
+
+:root {
+  --c-bg:        #f1f4f8;
+  --c-surface:   #ffffff;
+  --c-surface-2: #f7f9fc;
+  --c-line:      #d4dae3;
+  --c-line-soft: #e6eaf0;
+  --c-text:      #1f2733;
+  --c-text-sub:  #5b6776;
+  --c-text-dim:  #8a95a3;
+  --c-primary:   #1860c2;
+  --c-primary-d: #134e9e;
+  --c-primary-bg:#e8f0fb;
+  --c-ok:        #1f8f46;
+  --c-ok-bg:     #e8f6ed;
+  --c-warn:      #b8860b;
+  --c-warn-bg:   #fbf3e0;
+  --c-ng:        #c0392b;
+  --c-ng-bg:     #fbeae8;
+  --c-header:    #1f3a5f;
+  --r:           4px;
+  --fs:          13px;
+}
+
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; height:100%; background:var(--c-bg); color:var(--c-text);
+  font-family:"Segoe UI","Hiragino Kaku Gothic ProN","Yu Gothic","Meiryo",sans-serif;
+  font-size:var(--fs); -webkit-font-smoothing:antialiased; }
+#root, #app-root { height:100%; display:flex; flex-direction:column; }
+
+/* ===== ヘッダ ===== */
+.app-header {
+  display:flex; align-items:center; gap:12px; height:46px; min-height:46px;
+  padding:0 14px; background:var(--c-header); color:#fff;
+  border-bottom:2px solid var(--c-primary-d); position:relative; z-index:100;
+}
+.app-header-icon { font-size:17px; }
+.app-header-title { font-size:14px; font-weight:700; white-space:nowrap; letter-spacing:.02em; }
+.header-meta { display:flex; align-items:center; gap:12px; flex:1; overflow:hidden; }
+.header-meta-field { display:flex; align-items:center; gap:5px; white-space:nowrap; }
+.header-meta-field > label { font-size:11px; color:#b9c6d8; font-weight:600; }
+.header-meta-field > input {
+  background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.22);
+  border-radius:var(--r); color:#fff; font-size:12px; padding:3px 7px; min-width:60px; }
+.header-meta-field > input::placeholder { color:#9fb0c4; }
+.header-meta-field > input:focus { outline:none; border-color:#7fb0ee; }
+.print-btn {
+  background:var(--c-primary); color:#fff; border:1px solid var(--c-primary-d);
+  border-radius:var(--r); font-size:12px; font-weight:600; padding:5px 11px;
+  cursor:pointer; white-space:nowrap; }
+.print-btn:hover { background:var(--c-primary-d); }
+
+/* ===== メインレイアウト ===== */
+.main-layout {
+  display:flex; flex-direction:row;
+  flex:1 1 auto; min-height:0; overflow:hidden; }
+.splitter {
+  width:5px; cursor:col-resize; background:var(--c-line-soft); flex-shrink:0; }
+.splitter:hover { background:var(--c-primary); }
+
+/* ===== 左パネル ===== */
+.left-panel {
+  background:var(--c-surface); border-right:1px solid var(--c-line);
+  overflow-y:auto; flex-shrink:0; padding:12px 14px; }
+
+.panel-section-label {
+  font-size:12px; font-weight:700; color:var(--c-primary-d); letter-spacing:.03em;
+  margin:4px 0 8px; padding-bottom:5px; border-bottom:2px solid var(--c-primary-bg); }
+
+/* ── 統一入力行（ラベル│インプット│単位） ── */
+.input-row {
+  display:flex; align-items:center; gap:7px; margin-bottom:7px; }
+.input-row-label {
+  font-size:11px; color:var(--c-text-sub); font-weight:500; flex:1; white-space:nowrap; }
+.input-row-input {
+  width:88px; flex-shrink:0;
+  background:#fff; border:1px solid var(--c-line); border-radius:var(--r);
+  padding:5px 8px; font-size:13px; color:var(--c-text);
+  text-align:right; outline:none; }
+.input-row-input:focus { border-color:var(--c-primary); box-shadow:0 0 0 2px var(--c-primary-bg); }
+.input-row-unit { font-size:11px; color:var(--c-text-dim); width:14px; }
+
+.section-divider { margin:12px 0 10px; border-top:1px solid var(--c-line-soft); padding-top:10px; }
+
+.req-box {
+  background:var(--c-primary-bg); border:1px solid #bcd5f3;
+  border-radius:var(--r); padding:8px 10px; font-size:11px; color:var(--c-text-sub);
+  margin:6px 0 10px; }
+.req-box-value { font-size:18px; font-weight:800; color:var(--c-primary-d); margin:1px 0; }
+.req-box-note { font-size:10px; color:var(--c-text-dim); }
+
+.btn-search {
+  width:100%; background:var(--c-primary); color:#fff; border:none;
+  border-radius:var(--r); padding:9px; font-size:13px; font-weight:700;
+  cursor:pointer; margin:4px 0 10px; }
+.btn-search:hover:not(:disabled) { background:var(--c-primary-d); }
+.btn-search:disabled { background:#b8c2d0; cursor:not-allowed; }
+
+.building-toggle { display:flex; gap:6px; margin-bottom:8px; }
+.building-btn {
+  flex:1; background:#fff; border:1px solid var(--c-line);
+  border-radius:var(--r); padding:6px; font-size:12px; cursor:pointer; color:var(--c-text-sub); }
+.building-btn.active {
+  background:var(--c-primary-bg); border-color:var(--c-primary);
+  color:var(--c-primary-d); font-weight:700; }
+
+.selected-crane-box {
+  background:var(--c-surface-2); border:1px solid var(--c-line);
+  border-left:3px solid var(--c-primary); border-radius:var(--r);
+  padding:8px 10px; margin:8px 0; font-size:11px; }
+.selected-crane-box .scb-name { font-size:12px; font-weight:700; margin-bottom:4px; }
+.selected-crane-box .scb-row {
+  display:flex; justify-content:space-between; color:var(--c-text-sub); padding:1px 0; }
+.selected-crane-box .scb-row b { color:var(--c-text); font-weight:600; }
+
+.crane-list-item {
+  display:flex; align-items:center; gap:7px; padding:6px 9px;
+  border:1px solid var(--c-line); border-radius:var(--r); margin-bottom:4px;
+  cursor:pointer; font-size:12px; background:#fff; }
+.crane-list-item:hover { background:var(--c-surface-2); border-color:var(--c-primary); }
+.crane-list-item.selected {
+  background:var(--c-primary-bg); border-color:var(--c-primary);
+  font-weight:700; color:var(--c-primary-d); }
+.crane-list-icon { font-size:12px; }
+
+.safety-input-wrap2 { display:flex; align-items:center; gap:6px; }
+.safety-unit2 { font-size:12px; color:var(--c-text-sub); }
+
+/* ===== 中央パネル ===== */
+.center-panel {
+  flex:1 1 auto; min-width:0; display:flex; flex-direction:column;
+  background:var(--c-surface-2); overflow:hidden; }
+
+/* 断面図ヘッダバー */
+.diagram-header {
+  display:flex; align-items:center; gap:10px; padding:7px 14px;
+  background:var(--c-surface); border-bottom:1px solid var(--c-line); flex-shrink:0; }
+.diagram-title { font-size:14px; font-weight:700; }
+
+/* 中央本体（コントロールサイドバー ＋ 断面図） */
+.center-body {
+  display:flex; flex-direction:row; flex:1 1 auto; min-height:0; overflow:hidden; }
+
+/* 揚重条件設定サイドバー（断面図左） */
+.control-section {
+  width:310px; min-width:260px; flex-shrink:0;
+  background:var(--c-surface); border-right:1px solid var(--c-line);
+  overflow-y:auto; padding:10px 12px; display:flex; flex-direction:column; gap:0; }
+
+/* 断面図エリア（主役） */
+.diagram-section {
+  flex:1 1 auto; display:flex; flex-direction:column; overflow:hidden; min-width:0; }
+.svg-area {
+  flex:1 1 auto; min-height:0; display:flex; align-items:center; justify-content:center;
+  padding:10px 14px; overflow:hidden; background:var(--c-surface); }
+.svg-area svg { max-width:100%; max-height:100%; }
+.diagram-note {
+  padding:5px 14px; font-size:10px; color:var(--c-text-dim);
+  background:var(--c-surface); border-top:1px solid var(--c-line-soft); flex-shrink:0; }
+
+/* 各種情報バー（サイドバー内に移動） */
+.info-bar {
+  display:flex; flex-wrap:wrap; gap:4px; padding:8px 0 0; flex-shrink:0; }
+.info-card {
+  background:var(--c-surface-2); border:1px solid var(--c-line); border-radius:var(--r);
+  padding:4px 8px; min-width:60px; }
+.info-card-label { font-size:9px; color:var(--c-text-dim); }
+.info-card-value { font-size:12px; font-weight:700; color:var(--c-text); }
+
+/* ===== 揚重条件設定パネル（縦積み） ===== */
+.sl850-panel {
+  background:var(--c-surface-2); border:1px solid var(--c-line); border-radius:var(--r);
+  padding:8px 10px; display:flex; flex-direction:column; gap:8px; width:100%; }
+.sl850-panel-title {
+  font-size:11px; font-weight:700; color:var(--c-primary-d); letter-spacing:.03em;
+  padding-bottom:4px; border-bottom:1px solid var(--c-line); width:100%; }
+.sl850-grid { display:flex; flex-direction:column; gap:8px; width:100%; }
+.sl850-cell { display:flex; flex-direction:column; gap:3px; }
+.sl850-cell-full { width:100%; }
+.control-label { font-size:11px; font-weight:600; color:var(--c-text-sub); }
+.control-group { display:flex; flex-direction:column; gap:3px; }
+
+.boom-btn-group, .jib-seg-group, .jib-angle-group, .hook-btn-group {
+  display:flex; flex-wrap:wrap; gap:4px; }
+.boom-btn, .jib-seg-btn, .jib-angle-btn {
+  background:#fff; border:1px solid var(--c-line); border-radius:var(--r);
+  padding:5px 10px; font-size:12px; cursor:pointer; color:var(--c-text); white-space:nowrap; }
+.boom-btn:hover, .jib-seg-btn:hover, .jib-angle-btn:hover { border-color:var(--c-primary); }
+.boom-btn.active, .jib-seg-btn.active, .jib-angle-btn.active {
+  background:var(--c-primary); border-color:var(--c-primary-d); color:#fff; font-weight:700; }
+.jib-seg-btn.disabled { opacity:.45; cursor:not-allowed; }
+.jib-active-note {
+  font-size:11px; color:var(--c-primary-d); background:var(--c-primary-bg);
+  border-radius:var(--r); padding:4px 8px; }
+
+.hook-btn-scroll { overflow-x:auto; max-width:100%; }
+.hook-btn {
+  background:#fff; border:1px solid var(--c-line); border-radius:var(--r);
+  padding:5px 9px; cursor:pointer; text-align:left; min-width:88px; color:var(--c-text); }
+.hook-btn:hover { border-color:var(--c-primary); }
+.hook-btn.active { background:var(--c-primary-bg); border-color:var(--c-primary); }
+.hook-rec-note, .hook-select-note, .hook-warn-note { font-size:10px; color:var(--c-text-dim); margin-top:2px; }
+.hook-warn-note { color:var(--c-ng); }
+
+.link-btn {
+  background:#fff; border:1px solid var(--c-line); border-radius:var(--r);
+  padding:4px 11px; font-size:12px; cursor:pointer; color:var(--c-text-sub); align-self:flex-start; }
+.link-btn.linked {
+  background:var(--c-primary-bg); border-color:var(--c-primary);
+  color:var(--c-primary-d); font-weight:600; }
+
+.sl850-trace {
+  font-size:10px; color:var(--c-text-sub); background:var(--c-surface-2);
+  border:1px dashed var(--c-line); border-radius:var(--r); padding:5px 8px; line-height:1.5; }
+
+input[type=range] { accent-color:var(--c-primary); width:100%; }
+
+/* ===== バッジ ===== */
+.badge { display:inline-block; font-size:11px; font-weight:700; padding:2px 8px;
+  border-radius:999px; border:1px solid transparent; }
+.badge-ok   { background:var(--c-ok-bg);   color:var(--c-ok);   border-color:#a8dcb8; }
+.badge-ok2  { background:var(--c-ok-bg);   color:var(--c-ok);   border-color:#a8dcb8; }
+.badge-warn { background:var(--c-warn-bg); color:var(--c-warn); border-color:#e7cf95; }
+.badge-warn2{ background:var(--c-warn-bg); color:var(--c-warn); border-color:#e7cf95; }
+.badge-ng   { background:var(--c-ng-bg);   color:var(--c-ng);   border-color:#e7b3ac; }
+.badge-info { background:var(--c-primary-bg); color:var(--c-primary-d); border-color:#bcd5f3; }
+
+/* ===== 右パネル ===== */
+.right-panel {
+  background:var(--c-surface); border-left:1px solid var(--c-line);
+  overflow-y:auto; flex-shrink:0; padding:12px; }
+
+.tab-bar { display:flex; gap:4px; margin-bottom:10px; }
+.tab-btn {
+  flex:1; background:var(--c-surface-2); border:1px solid var(--c-line);
+  border-radius:var(--r); padding:7px; font-size:12px; font-weight:600; cursor:pointer; color:var(--c-text-sub); }
+.tab-btn.active {
+  background:var(--c-primary); border-color:var(--c-primary-d); color:#fff; }
+.tab-content { display:block; }
+
+/* 判定カード */
+.judge-card {
+  background:#fff; border:1px solid var(--c-line); border-radius:var(--r);
+  padding:12px; margin-bottom:10px; }
+.judge-card-main { text-align:center; padding:18px 12px; border-width:2px; }
+.judge-card-main.ok   { background:var(--c-ok-bg);   border-color:var(--c-ok); }
+.judge-card-main.ng   { background:var(--c-ng-bg);   border-color:var(--c-ng); }
+.judge-card-main.warn { background:var(--c-warn-bg); border-color:var(--c-warn); }
+.judge-main-status { font-size:22px; font-weight:800; }
+.judge-card-main.ok   .judge-main-status { color:var(--c-ok); }
+.judge-card-main.ng   .judge-main-status { color:var(--c-ng); }
+.judge-card-main.warn .judge-main-status { color:var(--c-warn); }
+.judge-main-sub { font-size:12px; color:var(--c-text-sub); margin-top:6px; }
+.judge-card-label { font-size:11px; color:var(--c-text-sub); font-weight:600; }
+.judge-card-value { font-size:26px; font-weight:800; margin:2px 0; }
+.judge-card-sub { font-size:11px; color:var(--c-text-sub); }
+.usage-bar-bg {
+  width:100%; height:8px; background:var(--c-line-soft);
+  border-radius:999px; overflow:hidden; margin:6px 0; }
+.usage-bar-fill { height:100%; border-radius:999px; }
+.judge-detail-table { display:flex; flex-direction:column; }
+.judge-detail-row {
+  display:flex; justify-content:space-between; padding:4px 2px;
+  border-bottom:1px solid var(--c-line-soft); font-size:12px; }
+.judge-detail-label { color:var(--c-text-sub); }
+.judge-detail-value { color:var(--c-text); font-weight:600; }
+details.spec-fold { margin-top:8px; }
+details.spec-fold > summary {
+  cursor:pointer; font-size:12px; font-weight:600; color:var(--c-primary-d);
+  padding:6px 4px; list-style:none; }
+details.spec-fold > summary::-webkit-details-marker { display:none; }
+details.spec-fold > summary::before { content:'▸ '; }
+details.spec-fold[open] > summary::before { content:'▾ '; }
+
+/* 検索結果 */
+.result-header { display:flex; justify-content:space-between; font-size:12px; margin-bottom:10px; color:var(--c-text-sub); }
+.result-card {
+  display:flex; align-items:center; gap:8px; background:#fff;
+  border:1px solid var(--c-line); border-radius:var(--r); padding:8px 10px;
+  margin-bottom:6px; cursor:pointer; }
+.result-card:hover { border-color:var(--c-primary); background:var(--c-surface-2); }
+.result-badge { font-size:10px; font-weight:700; padding:2px 7px; border-radius:999px; }
+.result-name { font-size:12.5px; font-weight:700; }
+.result-detail { font-size:10px; color:var(--c-text-sub); }
+.result-cap { text-align:right; }
+.result-cap-val { font-size:15px; font-weight:800; }
+.result-cap-pct { font-size:10px; }
+
+.empty-state {
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:8px; color:var(--c-text-dim); padding:28px 12px; }
+.empty-state .icon { font-size:30px; opacity:.5; }
+.empty-state .text { font-size:12px; }
+
+.input-label { display:block; font-size:11px; color:var(--c-text-sub); font-weight:600; margin-bottom:3px; }
+
+.mobile-sec-label {
+  font-size:13px; font-weight:700; color:var(--c-primary-d);
+  padding:8px 2px 6px; margin-top:6px; border-bottom:2px solid var(--c-primary-bg); }
+.mobile-sec-label:first-child { margin-top:0; }
+
+/* ===== 印刷 ===== */
+@media print {
+  @page { size:A4 landscape; margin:7mm; }
+  html, body { background:#fff; height:auto; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  #root, #app-root { height:auto; display:block; overflow:visible; }
+  .app-header, .main-layout, .no-print, .splitter { display:none !important; }
+  .print-only { display:block !important; }
+  * { -webkit-print-color-adjust:exact !important; print-color-adjust:exact !important; }
+  .print-frame, .print-figure, .print-judge, .print-cols, .print-spec, .print-remarks, .print-fig-right {
+    page-break-inside:avoid !important; break-inside:avoid !important; }
+}
+.print-only { display:none; }
+
+/* ===== 印刷専用シート（A4横・B案：左=断面図／右=判定・詳細・備考） ===== */
+.print-frame {
+  border:none; border-radius:0; padding:2mm 2mm 0;
+  color:#000; height:191mm; display:grid;
+  grid-template-columns:1fr 86mm;     /* 左:断面図(可変)  右:諸元(固定86mm) */
+  grid-template-rows:auto 1fr auto;
+  grid-template-areas:
+    "head head"
+    "figure right"
+    "foot foot";
+  column-gap:5mm; row-gap:3mm; }
+.print-head {
+  grid-area:head;
+  display:flex; align-items:flex-end; justify-content:space-between;
+  border-bottom:2.5px solid #1a3a5c; padding-bottom:2.5mm; }
+.print-head-title {
+  font-family:"Noto Sans JP","Meiryo UI","Yu Gothic",sans-serif;
+  font-size:9.75pt; font-weight:700; letter-spacing:.04em; color:#1a3a5c; }
+.print-head-meta { display:flex; gap:14px; font-size:11px; color:#4a5568; }
+/* 左：断面図を縦いっぱい大きく */
+.print-figure {
+  grid-area:figure;
+  border:1.2px solid #555; border-radius:2px;
+  display:flex; flex-direction:column; min-height:0; min-width:0; }
+.print-fig-title { font-size:12px; font-weight:700; background:#e8edf4; color:#1a3a5c; padding:3px 8px; border-bottom:1px solid #b8c8d8; flex:0 0 auto; }
+.print-fig-body { flex:1 1 auto; min-height:0; padding:2mm; }
+.print-fig-body svg { width:100%; height:100%; display:block; }
+/* 右：判定→詳細→備考を縦積み */
+.print-fig-right {
+  grid-area:right;
+  display:flex; flex-direction:column; gap:3mm; min-height:0; }
+.print-cols { display:flex; flex-direction:column; gap:3mm; flex:0 0 auto; }
+.print-remarks { border:1px solid #999; border-radius:2px; flex:1 1 auto; min-height:18mm; }
+.print-foot { grid-area:foot; }
+.print-remarks-title { font-size:12px; font-weight:700; background:#f0f0f0; padding:2px 8px; border-bottom:1px solid #ccc; }
+.print-remarks-lines {
+  height:28mm; background-image:repeating-linear-gradient(transparent, transparent 6.5mm, #ddd 6.5mm, #ddd calc(6.5mm + 1px)); margin:3mm 4mm; }
+.print-foot { font-size:10px; color:#555; margin-top:4mm; padding-top:2mm; border-top:1px solid #ccc; }
+
+/* 印刷専用シート */
+.print-sheet { padding:0 2mm; color:#000; }
+.print-judge {
+  display:flex; flex-direction:column; align-items:flex-start; gap:3px;
+  border:2px solid #000; border-radius:4px; padding:6px 10px; margin:0; flex:0 0 auto; }
+.print-judge.ok { background:#e8f6ed; border-color:#1f8f46; }
+.print-judge.ng { background:#fbeae8; border-color:#c0392b; }
+.print-judge-status { font-size:17px; font-weight:800; white-space:nowrap; }
+.print-judge.ok .print-judge-status { color:#1f8f46; }
+.print-judge.ng .print-judge-status { color:#c0392b; }
+.print-judge-metrics { display:flex; flex-wrap:wrap; gap:4px 14px; font-size:12px; font-weight:600; }
+.print-cols-old-removed { }
+.print-spec { flex:1; }
+.print-spec-title { font-size:13px; font-weight:700; border-bottom:1.5px solid #000; padding-bottom:3px; margin-bottom:4px; }
+.print-table { width:100%; border-collapse:collapse; font-size:12px; }
+.print-table td { border-bottom:1px solid #ccc; padding:3px 6px; }
+.print-table .pt-l { color:#333; width:46%; }
+.print-table .pt-v { text-align:right; font-weight:600; }
+
+/* ===== レスポンシブ（3段） ===== */
+/* タブレット: 入力 → 断面図 → 結果 の縦並び */
+@media (max-width:1024px) and (min-width:769px) {
+  .main-layout { flex-direction:column; height:auto; overflow:visible; }
+  .left-panel, .right-panel, .center-panel { width:100% !important; border:none; border-bottom:1px solid var(--c-line); }
+  .splitter { display:none; }
+  .center-body { flex-direction:column; }
+  .control-section { width:100% !important; border:none; border-bottom:1px solid var(--c-line); overflow:visible; }
+  .svg-area { min-height:360px; }
+}
+/* スマホ: 入力 → 断面図 → 判定 → 詳細 → おすすめ の縦並び（タブ廃止・全展開） */
+@media (max-width:768px) {
+  .main-layout { flex-direction:column; height:auto; overflow:visible; }
+  .left-panel, .right-panel, .center-panel { width:100% !important; border:none; border-bottom:1px solid var(--c-line); }
+  .splitter { display:none; }
+  .header-meta { display:none; }
+  .center-body { flex-direction:column; }
+  .control-section { width:100% !important; border:none; border-bottom:1px solid var(--c-line); overflow:visible; }
+  .svg-area { min-height:300px; }
+  .right-panel { overflow:visible; }
+}

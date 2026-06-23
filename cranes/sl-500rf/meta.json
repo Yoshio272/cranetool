@@ -1,0 +1,209 @@
+{
+  "id": "SL-500Rf",
+  "name": "50tRC(SL-500Rf)",
+  "maker": "TADANO",
+  "model": "KR-50H-F",
+  "type": "50tラフタークレーン",
+  "cap_t": 50,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    10.1,
+    17.6,
+    25.1,
+    32.5,
+    36.5,
+    40.0
+  ],
+  "min_r_m": 3.0,
+  "max_h_m": 41.1,
+  "outrigger_m": 7.6,
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "outrigger_options": [
+    {
+      "m": 7.6,
+      "label": "7.6m"
+    },
+    {
+      "m": 7.2,
+      "label": "7.2m"
+    },
+    {
+      "m": 6.5,
+      "label": "6.5m"
+    },
+    {
+      "m": 5.4,
+      "label": "5.4m"
+    },
+    {
+      "m": 4.3,
+      "label": "4.3m"
+    },
+    {
+      "m": 2.43,
+      "label": "2.43m"
+    }
+  ],
+  "jib_options": [
+    {
+      "m": 9.4,
+      "label": "9.4m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        40.0,
+        44.0
+      ]
+    },
+    {
+      "m": 13.7,
+      "label": "13.7m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        40.0,
+        44.0
+      ]
+    }
+  ],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_50t",
+      "name": "50tフック",
+      "ton": 50,
+      "weight_t": 0.5,
+      "hookHeight_m": 2.2,
+      "parts": 12,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.1
+    },
+    {
+      "id": "hook_34t",
+      "name": "34tフック",
+      "ton": 34,
+      "weight_t": 0.33,
+      "hookHeight_m": 2.1,
+      "parts": 7,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 40.0
+    },
+    {
+      "id": "hook_5t",
+      "name": "5tフック(4本)",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 40.0
+    },
+    {
+      "id": "hook_5t_jib",
+      "name": "5tフック(1本)",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_50t",
+      "name": "50tフック",
+      "ton": 50,
+      "weight_t": 0.5,
+      "hookHeight_m": 2.2,
+      "parts": 12,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.1
+    },
+    {
+      "id": "hook_34t",
+      "name": "34tフック",
+      "ton": 34,
+      "weight_t": 0.33,
+      "hookHeight_m": 2.1,
+      "parts": 7,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 40.0
+    },
+    {
+      "id": "hook_5t",
+      "name": "5tフック(4本)",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 40.0
+    },
+    {
+      "id": "hook_5t_jib",
+      "name": "5tフック(1本)",
+      "ton": 5,
+      "weight_t": 0.12,
+      "hookHeight_m": 2.5,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "jib_hook_default": "hook_5t_jib",
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 7.6,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "max_h_jib_m": 54.8,
+  "maxR_boom": 37.0,
+  "maxR": 37.0,
+  "maxR_jib": 45.0,
+  "boom_foot_x": -2.94,
+  "boom_foot_y": 3.65
+}

@@ -1,0 +1,179 @@
+{
+  "id": "SR-250Rf",
+  "name": "25tRC(SR-250Rf)",
+  "maker": "KATO",
+  "model": "KR-25H-F",
+  "type": "25tラフタークレーン",
+  "cap_t": 25,
+  "vehicleType": "roughterrain",
+  "engine": "legacy",
+  "boomSections": 5,
+  "boom_steps": [
+    9.35,
+    16.4,
+    23.45,
+    30.5
+  ],
+  "min_r_m": 2.5,
+  "max_h_m": 31.5,
+  "outrigger_m": 6.6,
+  "capabilities": {
+    "outrigger": true,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": true
+  },
+  "outrigger_options": [
+    {
+      "m": 6.6,
+      "label": "6.6m"
+    },
+    {
+      "m": 6.1,
+      "label": "6.1m"
+    },
+    {
+      "m": 5.0,
+      "label": "5.0m"
+    },
+    {
+      "m": 3.8,
+      "label": "3.8m"
+    },
+    {
+      "m": 2.31,
+      "label": "2.31m"
+    }
+  ],
+  "jib_options": [
+    {
+      "m": 8.7,
+      "label": "8.7m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.45,
+        30.5
+      ]
+    },
+    {
+      "m": 13.1,
+      "label": "13.1m",
+      "offsets": [
+        5,
+        25,
+        45,
+        60
+      ],
+      "validBooms": [
+        23.45,
+        30.5
+      ]
+    }
+  ],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_25t",
+      "name": "25tフック",
+      "ton": 25,
+      "weight_t": 0.23,
+      "hookHeight_m": 1.9,
+      "parts": 6,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 30.5
+    },
+    {
+      "id": "hook_4t",
+      "name": "4tフック(4本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.1,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 30.5
+    },
+    {
+      "id": "hook_4t_jib",
+      "name": "4tフック(1本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.0,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_25t",
+      "name": "25tフック",
+      "ton": 25,
+      "weight_t": 0.23,
+      "hookHeight_m": 1.9,
+      "parts": 6,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 30.5
+    },
+    {
+      "id": "hook_4t",
+      "name": "4tフック(4本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.1,
+      "parts": 4,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 30.5
+    },
+    {
+      "id": "hook_4t_jib",
+      "name": "4tフック(1本)",
+      "ton": 4,
+      "weight_t": 0.06,
+      "hookHeight_m": 2.0,
+      "parts": 1,
+      "usableFor": [
+        "jib"
+      ],
+      "boomMax": null
+    }
+  ],
+  "jib_hook_default": "hook_4t_jib",
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 6.6,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "max_h_jib_m": 44.6,
+  "maxR_boom": 27.8,
+  "maxR": 27.8,
+  "maxR_jib": 34,
+  "boom_foot_x": -2.6,
+  "boom_foot_y": 3.365
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>揚重計画シミュレーター</title>
+  <link rel="icon" href="data:,"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React 18 ローカル -->
+  <script src="react_min.js"></script>
+  <script src="react-dom_min.js"></script>
+
+  <!-- 読込順は依存関係により固定 -->
+  <script src="constants.js"></script>               <!-- 1. 定数 -->
+  <script src="theme.js"></script>                   <!-- 2. 色・フォント・余白 -->
+  <script src="helper.js"></script>                  <!-- 3. 計算・ユーティリティ -->
+  <script src="crane_engine.js"></script>            <!-- 4. クレーンエンジン -->
+  <script src="crane-r-Data.js"></script>            <!-- 5. クレーン定格データ -->
+  <script src="script.js"></script>                  <!-- 6. UIコンポーネント -->
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "id": "CC1485S-1-HW-W",
+  "name": "4.9tCCHW(走行吊)",
+  "maker": "前田製作所",
+  "model": "ISUZU 4LE2XDPC",
+  "type": "4.9tCCﾍﾋﾞｰｳｪｲﾄ",
+  "cap_t": 4.9,
+  "vehicleType": "crawler",
+  "engine": "legacy",
+  "boomSections": 3,
+  "boom_steps": [
+    4.745,
+    7.625,
+    10.505
+  ],
+  "min_r_m": 3.2,
+  "max_h_m": 11.0,
+  "outrigger_m": 2.49,
+  "capabilities": {
+    "outrigger": false,
+    "counterweight": false,
+    "boomMode": false,
+    "jib": false
+  },
+  "outrigger_options": [
+    {
+      "m": 2.49,
+      "label": "2.49m"
+    }
+  ],
+  "jib_options": [],
+  "boom_modes": [
+    {
+      "key": "normal",
+      "label": "通常伸縮"
+    }
+  ],
+  "hook_catalog": [
+    {
+      "id": "hook_4.9t",
+      "name": "4.9tフック",
+      "ton": 4,
+      "weight_t": 0.09,
+      "hookHeight_m": 1.0,
+      "parts": 2,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.505
+    }
+  ],
+  "hook_spec": [
+    {
+      "id": "hook_4.9t",
+      "name": "4.9tフック",
+      "ton": 4,
+      "weight_t": 0.09,
+      "hookHeight_m": 1.0,
+      "parts": 2,
+      "usableFor": [
+        "main"
+      ],
+      "boomMax": 10.505
+    }
+  ],
+  "jib_hook_default": null,
+  "data_files": {
+    "boom_normal": "loadchart/boom_normal.json",
+    "boom_special": "loadchart/boom_special.json",
+    "jib": "loadchart/jib.json"
+  },
+  "defaults": {
+    "outrigger_m": 2.49,
+    "counterweight": true,
+    "boom_mode": "normal",
+    "jib_m": null,
+    "jib_offset": 5
+  },
+  "maxR_boom": 10.335,
+  "maxR": 10.335,
+  "boom_foot_x": -0.17,
+  "boom_foot_y": 2.17
+}
