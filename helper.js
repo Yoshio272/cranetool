@@ -304,16 +304,18 @@ function lookupBoomNormal(boom_raw, params) {
   var boomLen = params.boom_length_m;
   var radius  = params.radius_m;
 
-  // アウトリガキー: 指定値以下の最大キーを選ぶ
-  var outr_keys = Object.keys(boom_raw.outriggers)
-    .filter(function(k){ return k !== 'front'; })
-    .map(function(k){ return parseInt(k, 10); })
-    .sort(function(a,b){ return b - a; }); // 降順
-  var outr_key = null;
-  for (var i = 0; i < outr_keys.length; i++) {
-    if (outr_keys[i] <= outr_mm) { outr_key = String(outr_keys[i]); break; }
+  // アウトリガキー: exact match
+  // rtState.outrigger_m はボタン選択のみで設定され、
+  // outrigger_options.m と boom_normal.json キーは1対1対応が前提。
+  // 一致しない場合は不整合として null を返す（サイレント誤採用を防ぐ）。
+  var outr_key = outr_mm ? String(outr_mm) : null;
+  if (!outr_key || !boom_raw.outriggers[outr_key]) {
+    console.warn(
+      '[lookupBoomNormal] outrigger key not found:', outr_key,
+      '  available:', Object.keys(boom_raw.outriggers)
+    );
+    return null;
   }
-  if (!outr_key) outr_key = String(outr_keys[outr_keys.length - 1]);
 
   var outr_table = boom_raw.outriggers[outr_key];
   if (!outr_table) return null;
