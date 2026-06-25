@@ -461,7 +461,7 @@ function buildSVG(crane, radius, weight, boomLen, selectedHook, buildingDist, bu
       [-1, 1].map(function (sg) {
         var beamY  = Math.max(0.1, carrierTop - 0.25);   // ← 負値ガード
         var innerX = sg < 0 ? carrierLeft : carrierRight;
-        var tipX   = carrierCx + sg * (outr / 2);
+        var tipX = sg * (outr / 2);
         var x0 = Math.min(innerX, tipX), x1 = Math.max(innerX, tipX);
         return ce('g', { key: 'outr' + sg },
           ce('rect', { x: x0, y: sy(beamY + 0.09), width: (x1 - x0), height: 0.18, rx: 0.04, fill: C, stroke: CS, strokeWidth: 0.06 }),
