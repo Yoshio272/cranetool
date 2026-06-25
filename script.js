@@ -68,7 +68,6 @@ function getCaps(crane) {
     counterweight: !!cap.counterweight,
     boom_mode:     !!(cap.boomMode || cap.boom_mode),
     jib:           !!cap.jib,
-    jib_config:    !!(cap.jib_config),   // ジブ横抱え/横抱無し切替
   };
 }
 function hasCaps(crane) {
@@ -417,66 +416,67 @@ function buildSVG(crane, radius, weight, boomLen, selectedHook, buildingDist, bu
       // フートピン（段の左下の角）
       ce('circle', { cx: sx(boomBaseX), cy: sy(boomBaseY), r: 0.20, fill: P.dim, stroke: CS, strokeWidth: 0.08 }));
   } else {
-    // ラフター / オールテレーン共通ベース計算
+    // ラフター/AT: フートピン(footX,footY)絶対基準・参考図ピンク形状（凸形状）
+    //   旋回体: 左上にフートピン段（ブラケット）が突き出た形
+    //   左面/後面=垂直, 上面=水平, 右(前面)=上面取り+右下カット, 底面=水平
     var H = footY;                                 // フートピン高さ(GL基準)
     var tireTopY0 = 0.52;                           // タイヤ上端
     var mainTop0  = footY - 0.55;                   // 本体上面（段より一段下）
-    var availH    = Math.max(2.0, mainTop0 - tireTopY0);
-    var isAllterrain = crane.vehicleType === 'allterrain';
-    var swH = isAllterrain ? availH * 0.55 : availH * 0.6;
-    var swLeft  = footX - 0.3;
-    var swW     = isAllterrain ? Math.max(5.5, H * 2.0) : Math.max(4.6, H * 1.7);
-    var swRight = swLeft + swW;
-    var stepTop = footY + 0.25;
-    var stepRight = footX + 0.9;
-    var mainTop = mainTop0;
-    var bodyBot = mainTop - swH;
-    var cut  = 0.5;
-    var cut2 = Math.max(0.6, swH * 0.4);
+    var availH    = Math.max(2.0, mainTop0 - tireTopY0); // 旋回体+キャリアに使える高さ
+    var swH = availH * 0.6;                          // 旋回体本体の高さ（60%）
+    var swW     = Math.max(4.6, H * 1.7);          // 旋回体幅
+    var swLeft  = -swW / 2;                         // 左面x（旋回中心x=0に対称配置）
+    var swRight = swLeft + swW;                     // 右面x = +swW/2
+    var stepTop = footY + 0.25;                     // フートピン段の上面
+    var stepRight = footX + 0.9;                    // フートピン段の右端
+    var mainTop = mainTop0;                          // 本体上面
+    var bodyBot = mainTop - swH;                    // 本体底面 = キャリア上面
+    var cut  = 0.5;                                 // 右上の面取り
+    var cut2 = Math.max(0.6, swH * 0.4);            // 右下カット
 
-    // キャリア
-    var carrierW    = isAllterrain ? swW * 0.65 : swW * 0.5;
+    // キャリア（旋回体中央下・単純長方形・小さめ）
+    var carrierW    = swW * 0.5;
     var carrierCx   = (swLeft + swRight) / 2;
     var carrierLeft = carrierCx - carrierW / 2;
     var carrierRight= carrierCx + carrierW / 2;
-    var carrierTop  = bodyBot;
-    var tireTopY    = tireTopY0;
-    var carrierBot  = tireTopY;
+    var carrierTop  = bodyBot;                       // 旋回体底面に接する
+    var tireTopY    = tireTopY0;                      // タイヤ上端
+    var carrierBot  = tireTopY;                      // キャリア下端 = タイヤ上端
     var carrierH    = Math.max(0.6, carrierTop - carrierBot);
 
-    // 旋回体パス（凸形状）
+    // 旋回体パス（フートピン段付き凸形状・時計回り）
     var swingPath =
-      'M ' + sx(swLeft)     + ' ' + sy(stepTop) +
-      ' L ' + sx(stepRight) + ' ' + sy(stepTop) +
-      ' L ' + sx(stepRight) + ' ' + sy(mainTop) +
-      ' L ' + sx(swRight - cut) + ' ' + sy(mainTop) +
-      ' L ' + sx(swRight)   + ' ' + sy(mainTop - cut) +
-      ' L ' + sx(swRight)   + ' ' + sy(bodyBot + cut2) +
-      ' L ' + sx(swRight - cut2) + ' ' + sy(bodyBot) +
-      ' L ' + sx(swLeft)    + ' ' + sy(bodyBot) +
-      ' Z';
+      'M ' + sx(swLeft)     + ' ' + sy(stepTop) +              // 1 段 左上
+      ' L ' + sx(stepRight) + ' ' + sy(stepTop) +              // 2 段 右上（上面・水平）
+      ' L ' + sx(stepRight) + ' ' + sy(mainTop) +              // 3 段 右下（垂直）
+      ' L ' + sx(swRight - cut) + ' ' + sy(mainTop) +          // 4 本体上面（水平）
+      ' L ' + sx(swRight)   + ' ' + sy(mainTop - cut) +        // 5 右上面取り
+      ' L ' + sx(swRight)   + ' ' + sy(bodyBot + cut2) +       // 6 前面（垂直）
+      ' L ' + sx(swRight - cut2) + ' ' + sy(bodyBot) +         // 7 右下カット
+      ' L ' + sx(swLeft)    + ' ' + sy(bodyBot) +              // 8 底面（水平）
+      ' Z';                                                     // 9→1 左面（垂直）
 
     craneBodyLayer = ce('g', { key: 'craneBody' },
-      // ① アウトリガ（beamYは必ずMath.maxで0以上を保証）
+      // ① アウトリガ（キャリア両側面から水平張出＋ジャッキ＋接地プレート）
       [-1, 1].map(function (sg) {
-        var beamY  = Math.max(0.1, carrierTop - 0.25);   // ← 負値ガード
+        var beamY  = carrierTop - 0.25;            // ビーム高さ（キャリア側面の上寄り）
         var innerX = sg < 0 ? carrierLeft : carrierRight;
-        var tipX = sg * (outr / 2);
+        var tipX   = carrierCx + sg * (outr / 2);  // 張出端x
         var x0 = Math.min(innerX, tipX), x1 = Math.max(innerX, tipX);
         return ce('g', { key: 'outr' + sg },
           ce('rect', { x: x0, y: sy(beamY + 0.09), width: (x1 - x0), height: 0.18, rx: 0.04, fill: C, stroke: CS, strokeWidth: 0.06 }),
-          ce('rect', { x: tipX - 0.09, y: sy(beamY), width: 0.18, height: Math.max(0.05, beamY), rx: 0.03, fill: C, stroke: CS, strokeWidth: 0.06 }),
+          ce('rect', { x: tipX - 0.09, y: sy(beamY), width: 0.18, height: beamY, fill: C, stroke: CS, strokeWidth: 0.06 }),
           ce('rect', { x: tipX - 0.30, y: sy(0.12), width: 0.60, height: 0.13, rx: 0.04, fill: C, stroke: P.ok, strokeWidth: 0.08 }));
       }),
-      // ② タイヤ
+      // ② タイヤ（キャリア下・左右2輪・控えめ）
       [carrierLeft + carrierW * 0.25, carrierLeft + carrierW * 0.75].map(function (tx, i) {
         return ce('rect', { key: 'tire' + i, x: tx - 0.28, y: sy(tireTopY), width: 0.56, height: 0.50, rx: 0.10, fill: C, stroke: P.ok, strokeWidth: 0.09 });
       }),
-      // ③ キャリア
+      // ③ キャリア（単純長方形）
       ce('rect', { x: carrierLeft, y: sy(carrierTop), width: carrierW, height: carrierH, rx: 0.06, fill: C, stroke: CS, strokeWidth: 0.10 }),
-      // ④ 旋回体
+      // ④ 旋回体（凸形状・一体）
       ce('path', { d: swingPath, fill: C, stroke: CS, strokeWidth: 0.11, strokeLinejoin: 'round' }),
-      // ⑤ フートピン
+      // ⑤ フートピン（回転軸の丸）
       ce('circle', { cx: sx(boomBaseX), cy: sy(boomBaseY), r: 0.22, fill: P.dim, stroke: CS, strokeWidth: 0.08 }));
   }
 
@@ -563,15 +563,13 @@ function buildSVG(crane, radius, weight, boomLen, selectedHook, buildingDist, bu
     ce('line', { x1: hkX + wireSpan * 0.15, y1: hkBotSY, x2: hkX + wireSpan, y2: sy(loadTop_m), stroke: P.sub, strokeWidth: 0.08, strokeLinecap: 'round' }))
     : null;
 
-  // Layer7: 吊荷（weight>0 かつ座標が有効なときのみ描画。rect height負値防止）
-  var _showLoad = weight > 0 && loadRectTop > 0 && loadRectBot >= 0 && loadRectTop > loadRectBot;
-  var loadLayer = _showLoad ? ce('g', { key: 'load' },
+  // Layer7: 吊荷（ok判定はcurCapベースでなくcapacity的に正しい表示のみ）
+  var loadLayer = ce('g', { key: 'load' },
     ce('rect', { x: hkX - loadW_m, y: sy(loadRectTop), width: loadW_m * 2, height: loadH_m, rx: 0.18, fill: 'none', stroke: P.ok, strokeWidth: 0.14 }),
     [0.3, 0.65, 1.0, 1.35].map(function (dx) {
       return ce('line', { key: 'lh' + dx, x1: hkX - loadW_m + dx * loadW_m, y1: sy(loadRectBot), x2: hkX - loadW_m + dx * loadW_m, y2: sy(loadRectTop), stroke: P.ok, strokeWidth: 0.04, opacity: 0.3 });
     }),
-    ce('text', { x: hkX, y: sy(loadRectBot + loadH_m * 0.5 - 0.12), textAnchor: 'middle', fontSize: fs, fontWeight: '700', fill: P.boomL }, safeFmt(weight, 2) + 't'))
-    : null;
+    ce('text', { x: hkX, y: sy(loadRectBot + loadH_m * 0.5 - 0.12), textAnchor: 'middle', fontSize: fs, fontWeight: '700', fill: P.boomL }, safeFmt(weight, 2) + 't'));
 
   // Layer8: 寸法線
   // 揚程寸法：クレーン左側に縦寸法線（地盤面 → フック下端）
@@ -661,7 +659,7 @@ function App() {
   var _manifestList = s([]);    var manifestList = _manifestList[0], setManifestList = _manifestList[1];
   var _manifestLoaded=s(false); var manifestLoaded=_manifestLoaded[0], setManifestLoaded=_manifestLoaded[1];
   var _craneCache   = s({});    var craneCache = _craneCache[0],  setCraneCache   = _craneCache[1];
-  var _rtState      = s({ _craneId: null, outrigger_m: null, counterweight: true, boom_mode: 'normal', jib_m: null, jib_offset: 5, selectedHookId: null, jib_config: 'yokodakae' });
+  var _rtState      = s({ _craneId: null, outrigger_m: null, counterweight: true, boom_mode: 'normal', jib_m: null, jib_offset: 5, selectedHookId: null });
   var rtState = _rtState[0], setRtState = _rtState[1];
   var _sl850lastRef = useRef(null);  // render中に書き込むのでuseRef（setStateは不可）
   var sl850LastResult = null;       // render中に直接代入される変数
@@ -691,7 +689,7 @@ function App() {
   // loadCraneData — meta+loadchart fetchしてcraneCache更新
   function loadCraneData(id) {
     if (!id) return;
-    if (craneCacheRef.current[id] && craneCacheRef.current[id].loaded) return;
+    if (craneCache[id] && craneCache[id].loaded) return;
 
     var mf   = getManifestEntry(id);
     var base = (mf && mf.basePath) ? mf.basePath : ('cranes/' + id + '/');
@@ -702,29 +700,24 @@ function App() {
       .catch(function () { return null; })
       .then(function (meta) {
         var files = (meta && meta.data_files) || { boom_normal: 'boom_normal.json', jib: 'jib.json' };
-        var hasJibCap    = !!(meta && meta.capabilities && meta.capabilities.jib);
-        var hasJibConfig = !!(meta && meta.capabilities && meta.capabilities.jib_config);
-        // meta が null（404等）の場合はデータファイルも存在しないためfetchしない
-        var boomFile      = (meta && files.boom_normal)   ? base + files.boom_normal   : null;
-        var boomNoJibFile = (meta && hasJibConfig && files.boom_nojib) ? base + files.boom_nojib : null;
-        var jibFile       = (meta && hasJibCap && files.jib) ? base + files.jib : null;
-        var fetchBoom      = boomFile      ? fetch(boomFile,      _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        var fetchBoomNoJib = boomNoJibFile ? fetch(boomNoJibFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        var fetchJib       = jibFile       ? fetch(jibFile,       _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
-        return Promise.all([fetchBoom, fetchBoomNoJib, fetchJib]).then(function (res) { return { meta: meta, boomNormal: res[0], boomNoJib: res[1], jib: res[2] }; });
+        var hasJibCap = !!(meta && meta.capabilities && meta.capabilities.jib);
+        var boomFile = files.boom_normal ? base + files.boom_normal : null;
+        var jibFile  = (hasJibCap && files.jib) ? base + files.jib : null;   // ジブ対応機種のみ読込（クローラ等の404回避）
+        var fetchBoom = boomFile ? fetch(boomFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        var fetchJib  = jibFile  ? fetch(jibFile, _noCache).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }) : Promise.resolve(null);
+        return Promise.all([fetchBoom, fetchJib]).then(function (res) { return { meta: meta, boomNormal: res[0], jib: res[1] }; });
       })
       .then(function (d) {
         setCraneCache(function (prev) {
           var next = Object.assign({}, prev);
           next[id] = {
-            meta:          d.meta,
-            boom_raw:      d.boomNormal || null,
-            boom_raw_nojib: d.boomNoJib || null,
-            jib_raw:       d.jib        || null,
-            tbl:           d.boomNormal && d.boomNormal.tbl ? d.boomNormal.tbl : null,
-            jibData:       d.jib        && d.jib.jibData    ? d.jib.jibData   : null,
-            loaded:        true,
-            error:         null,
+            meta:     d.meta,
+            boom_raw: d.boomNormal || null,
+            jib_raw:  d.jib        || null,
+            tbl:      d.boomNormal && d.boomNormal.tbl ? d.boomNormal.tbl : null,
+            jibData:  d.jib        && d.jib.jibData    ? d.jib.jibData   : null,
+            loaded:   true,
+            error:    null,
           };
           return next;
         });
@@ -732,8 +725,7 @@ function App() {
       .catch(function (e) {
         setCraneCache(function (prev) {
           var next = Object.assign({}, prev);
-          // loaded:true にして再試行ループを防ぐ（metaなし=データなし機種として確定）
-          next[id] = { meta: null, boom_raw: null, boom_raw_nojib: null, jib_raw: null, tbl: null, jibData: null, loaded: true, error: String(e) };
+          next[id] = { meta: null, boom_raw: null, jib_raw: null, tbl: null, jibData: null, loaded: false, error: String(e) };
           return next;
         });
       });
@@ -774,7 +766,6 @@ function App() {
       (selected.rtJibOptions      || []).length !== (refreshed.rtJibOptions      || []).length ||
       (selected.rtBoomModes       || []).length !== (refreshed.rtBoomModes       || []).length ||
       (selected.boomSteps         || []).length !== (refreshed.boomSteps         || []).length ||
-      (!selected.boomSteps && !!refreshed.boomSteps) || (!!selected.boomSteps && !refreshed.boomSteps) ||
       JSON.stringify(selected.capabilities) !== JSON.stringify(refreshed.capabilities);
     if (needsUpdate) {
       setSelected(refreshed);
@@ -787,8 +778,8 @@ function App() {
     if (!selected) return;
     var bs = selected.boomSteps || [];
     if (initedCraneRef.current === selected.id) return; // 同一機種 → 選択状態を保持
-    if (bs.length === 0) return;                         // データ未着 → ロード後の再実行で初期化（ここより前に書かない）
-    initedCraneRef.current = selected.id;                // ← bs確定後に初めて確定マーク
+    if (bs.length === 0) return;                         // データ未着 → ロード後の再実行で初期化
+    initedCraneRef.current = selected.id;
 
     // ── ブーム長: 最長を自動選択 ──
     var _idx = bs.length - 1;
@@ -822,9 +813,8 @@ function App() {
       outrigger_m:    maxOutr !== null ? maxOutr : (d.outrigger_m !== undefined ? d.outrigger_m : null),
       counterweight:  selected.capabilities && selected.capabilities.counterweight ? true : false,
       boom_mode:      d.boom_mode !== undefined ? d.boom_mode : 'normal',
-      jib_m:          null,
+      jib_m:          null,    // ジブ: 無し
       jib_offset:     d.jib_offset !== undefined ? d.jib_offset : 5,
-      jib_config:     'yokodakae',
       selectedHookId: bestHook ? bestHook.id : null,
     });
   }, [selected]);
@@ -937,11 +927,7 @@ function App() {
       }
     } else if (_lctx) {
       // outriggers形式のloadchart（新機種）優先 → 旧tbl形式フォールバック
-      var _cachedEntry = craneCache[selected.id];
-      // jib_config='nojib' のときは boom_raw_nojib を優先使用
-      var _boomRaw = (_cachedEntry && rtState.jib_config === 'nojib' && _cachedEntry.boom_raw_nojib)
-        ? _cachedEntry.boom_raw_nojib
-        : (_cachedEntry && _cachedEntry.boom_raw);
+      var _boomRaw = craneCache[selected.id] && craneCache[selected.id].boom_raw;
       if (_boomRaw && _boomRaw.outriggers) {
         var _outrMmLookup = rtState.outrigger_m ? Math.round(rtState.outrigger_m * 1000) : 7600;
         curCap = lookupBoomNormal(_boomRaw, {
@@ -1216,12 +1202,6 @@ function App() {
           ce('div', { className: 'jib-seg-group' },
             ce('button', { className: 'jib-seg-btn' + (rtState.counterweight ? ' active' : ''), onClick: function () { updRtGlobal({ counterweight: true }); } }, 'CW付'),
             ce('button', { className: 'jib-seg-btn' + (!rtState.counterweight ? ' active' : ''), onClick: function () { updRtGlobal({ counterweight: false, boom_mode: 'normal', jib_m: null }); } }, 'CW無'))) : null,
-        // ジブ横抱え/横抱無し切替（jib_config対応機種のみ・ジブ未使用時のみ表示）
-        sup.jib_config && rtState.jib_m === null ? ce('div', { className: 'sl850-cell' },
-          ce('div', { className: 'control-label' }, 'ジブ横抱え'),
-          ce('div', { className: 'jib-seg-group' },
-            ce('button', { className: 'jib-seg-btn' + (rtState.jib_config === 'yokodakae' ? ' active' : ''), onClick: function () { updRtGlobal({ jib_config: 'yokodakae' }); } }, '横抱え'),
-            ce('button', { className: 'jib-seg-btn' + (rtState.jib_config === 'nojib' ? ' active' : ''), onClick: function () { updRtGlobal({ jib_config: 'nojib' }); } }, '横抱無'))) : null,
         // ブームモード（該当機種のみ）
         sup.boom_mode ? ce('div', { className: 'sl850-cell' },
           ce('div', { className: 'control-label' }, 'ブームモード'),
