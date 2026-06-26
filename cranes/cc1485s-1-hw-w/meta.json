@@ -79,5 +79,12 @@
   "maxR_boom": 10.335,
   "maxR": 10.335,
   "boom_foot_x": -0.17,
-  "boom_foot_y": 2.17
+  "boom_foot_y": 2.17,
+  "cw_options": [
+    {
+      "label": "0t",
+      "key": "0"
+    }
+  ],
+  "default_cwKey": "0"
 }

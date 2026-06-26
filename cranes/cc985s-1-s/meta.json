@@ -79,5 +79,12 @@
     "jib_offset": 5
   },
   "maxR_boom": 14.67,
-  "maxR": 14.67
+  "maxR": 14.67,
+  "cw_options": [
+    {
+      "label": "0t",
+      "key": "0"
+    }
+  ],
+  "default_cwKey": "0"
 }

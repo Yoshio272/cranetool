@@ -109,5 +109,12 @@
   },
   "boom_foot_x": -2.0,
   "boom_foot_y": 2.8,
-  "maxR_jib": 28.0
+  "maxR_jib": 28.0,
+  "cw_options": [
+    {
+      "label": "0t",
+      "key": "0"
+    }
+  ],
+  "default_cwKey": "0"
 }
