@@ -147,6 +147,8 @@ function resolveCrane(id, manifestList, craneCache) {
   base.maxR               = base.maxRBoom || base.maxRJib || (meta && meta.max_r_m) || null;
   base.boomFootX          = (meta && meta.boom_foot_x != null) ? meta.boom_foot_x : 0;
   base.boomFootY          = (meta && meta.boom_foot_y != null) ? meta.boom_foot_y : SVG_BASE_HEIGHT;
+  base.cw_options         = (meta && Array.isArray(meta.cw_options) && meta.cw_options.length > 0) ? meta.cw_options : null;
+  base.default_cwKey      = (meta && meta.default_cwKey != null) ? String(meta.default_cwKey) : null;
 
   return base;
 }
@@ -811,7 +813,7 @@ function App() {
     setRtState({
       _craneId:       selected.id,
       outrigger_m:    maxOutr !== null ? maxOutr : (d.outrigger_m !== undefined ? d.outrigger_m : null),
-      cwKey:          selected.default_cwKey ?? (selected.cw_options ? selected.cw_options[0].key : '0'),
+      cwKey:          selected.default_cwKey ?? (Array.isArray(selected.cw_options) && selected.cw_options.length > 0 ? selected.cw_options[0].key : '0'),
       boom_mode:      d.boom_mode !== undefined ? d.boom_mode : 'normal',
       jib_m:          null,    // ジブ: 無し
       jib_offset:     d.jib_offset !== undefined ? d.jib_offset : 5,
@@ -1004,7 +1006,7 @@ function App() {
       var cap2  = 0;
       if (resolved.engineType === 'sl850') {
         var _outrMm2 = resolved.defaults && resolved.defaults.outrigger_m ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
-        var _cwKey2 = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
+        var _cwKey2 = resolved.default_cwKey ?? (Array.isArray(resolved.cw_options) && resolved.cw_options.length > 0 ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
         var _res2 = getSL850Capacity({ outrigger_mm: _outrMm2, cwKey: _cwKey2, boomMode: 'normal', boom_length_m: midBl, radius_m: rv, jibLen: null, jib_offset_deg: 5, boom_angle_deg: 70 }, craneCache[m.id] || null);
         cap2 = (_res2 && _res2.capacity_t !== null) ? _res2.capacity_t : 0;
       } else {
@@ -1013,7 +1015,7 @@ function App() {
         if (_boomRaw2 && _boomRaw2.outriggers) {
           var _outrMm3 = resolved.defaults && resolved.defaults.outrigger_m
             ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
-          var _cwKey3 = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
+          var _cwKey3 = resolved.default_cwKey ?? (Array.isArray(resolved.cw_options) && resolved.cw_options.length > 0 ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
           cap2 = lookupBoomNormal(_boomRaw2, {
             outrigger_mm:  _outrMm3,
             cwKey:         _cwKey3,
@@ -1199,7 +1201,7 @@ function App() {
               return ce('button', { key: 'outr_' + opt.m, className: 'boom-btn' + (rtState.outrigger_m === opt.m ? ' active' : ''), onClick: function () { updRtGlobal({ outrigger_m: opt.m }); } }, opt.label);
             }))) : null,
         // カウンターウェイト選択（cw_optionsが2件以上の機種のみ表示）
-        (selected && selected.cw_options && selected.cw_options.length > 1) ? ce('div', { className: 'sl850-cell' },
+        (selected && Array.isArray(selected.cw_options) && selected.cw_options.length > 1) ? ce('div', { className: 'sl850-cell' },
           ce('div', { className: 'control-label' }, 'カウンタウエイト'),
           ce('div', { className: 'jib-seg-group' },
             selected.cw_options.map(function(opt) {
@@ -1282,13 +1284,13 @@ function App() {
       var cap2  = 0;
       var _outrMm2 = resolved.defaults && resolved.defaults.outrigger_m ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
       if (resolved.engineType === 'sl850') {
-        var _cwKeyT = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
+        var _cwKeyT = resolved.default_cwKey ?? (Array.isArray(resolved.cw_options) && resolved.cw_options.length > 0 ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
         var _res2 = getSL850Capacity({ outrigger_mm: _outrMm2, cwKey: _cwKeyT, boomMode: 'normal', boom_length_m: topBl, radius_m: rv, jibLen: null, jib_offset_deg: 5, boom_angle_deg: 70 }, craneCacheRef.current[m.id] || null);
         cap2 = (_res2 && _res2.capacity_t !== null) ? _res2.capacity_t : 0;
       } else {
         var _boomRaw2 = craneCacheRef.current[m.id] && craneCacheRef.current[m.id].boom_raw;
         if (_boomRaw2 && _boomRaw2.outriggers) {
-          var _cwKeyU = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
+          var _cwKeyU = resolved.default_cwKey ?? (Array.isArray(resolved.cw_options) && resolved.cw_options.length > 0 ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
           cap2 = lookupBoomNormal(_boomRaw2, { outrigger_mm: _outrMm2, cwKey: _cwKeyU, boom_length_m: topBl, radius_m: rv }) || 0;
         } else { cap2 = getCapacity(resolved, rv); }
       }
