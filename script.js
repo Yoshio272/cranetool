@@ -811,7 +811,7 @@ function App() {
     setRtState({
       _craneId:       selected.id,
       outrigger_m:    maxOutr !== null ? maxOutr : (d.outrigger_m !== undefined ? d.outrigger_m : null),
-      cwKey:          selected.cw_options ? selected.cw_options[0].key : '0',
+      cwKey:          selected.default_cwKey ?? (selected.cw_options ? selected.cw_options[0].key : '0'),
       boom_mode:      d.boom_mode !== undefined ? d.boom_mode : 'normal',
       jib_m:          null,    // ジブ: 無し
       jib_offset:     d.jib_offset !== undefined ? d.jib_offset : 5,
@@ -1004,7 +1004,7 @@ function App() {
       var cap2  = 0;
       if (resolved.engineType === 'sl850') {
         var _outrMm2 = resolved.defaults && resolved.defaults.outrigger_m ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
-        var _cwKey2 = resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0';
+        var _cwKey2 = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
         var _res2 = getSL850Capacity({ outrigger_mm: _outrMm2, cwKey: _cwKey2, boomMode: 'normal', boom_length_m: midBl, radius_m: rv, jibLen: null, jib_offset_deg: 5, boom_angle_deg: 70 }, craneCache[m.id] || null);
         cap2 = (_res2 && _res2.capacity_t !== null) ? _res2.capacity_t : 0;
       } else {
@@ -1013,7 +1013,7 @@ function App() {
         if (_boomRaw2 && _boomRaw2.outriggers) {
           var _outrMm3 = resolved.defaults && resolved.defaults.outrigger_m
             ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
-          var _cwKey3 = resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0';
+          var _cwKey3 = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
           cap2 = lookupBoomNormal(_boomRaw2, {
             outrigger_mm:  _outrMm3,
             cwKey:         _cwKey3,
@@ -1282,13 +1282,13 @@ function App() {
       var cap2  = 0;
       var _outrMm2 = resolved.defaults && resolved.defaults.outrigger_m ? Math.round(resolved.defaults.outrigger_m * 1000) : 7600;
       if (resolved.engineType === 'sl850') {
-        var _cwKeyT = resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0';
+        var _cwKeyT = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
         var _res2 = getSL850Capacity({ outrigger_mm: _outrMm2, cwKey: _cwKeyT, boomMode: 'normal', boom_length_m: topBl, radius_m: rv, jibLen: null, jib_offset_deg: 5, boom_angle_deg: 70 }, craneCacheRef.current[m.id] || null);
         cap2 = (_res2 && _res2.capacity_t !== null) ? _res2.capacity_t : 0;
       } else {
         var _boomRaw2 = craneCacheRef.current[m.id] && craneCacheRef.current[m.id].boom_raw;
         if (_boomRaw2 && _boomRaw2.outriggers) {
-          var _cwKeyU = resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0';
+          var _cwKeyU = resolved.default_cwKey ?? (resolved.cw_options ? resolved.cw_options[resolved.cw_options.length - 1].key : '0');
           cap2 = lookupBoomNormal(_boomRaw2, { outrigger_mm: _outrMm2, cwKey: _cwKeyU, boom_length_m: topBl, radius_m: rv }) || 0;
         } else { cap2 = getCapacity(resolved, rv); }
       }
