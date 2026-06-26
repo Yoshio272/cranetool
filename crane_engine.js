@@ -48,7 +48,7 @@ function resolveOutriggerKey(outrigger_mm) {
 // params: {
 //   data        : boom_normal or boom_special JSON object
 //   outrigger_mm: 7600|7200|6500|5400|4300|2550|"front"
-//   counterweight: true|false
+//   cwKey:         string ('0', '29.8', ...)
 //   boom_length_m: number
 //   radius_m    : number
 // }
@@ -57,7 +57,7 @@ function resolveOutriggerKey(outrigger_mm) {
 function lookupBoom(params) {
   var data       = params.data;
   var outrKey    = resolveOutriggerKey(params.outrigger_mm);
-  var cwKey      = params.counterweight ? 'true' : 'false';
+  var cwKey      = params.cwKey != null ? String(params.cwKey) : '0';
   var boomKey    = toKey(params.boom_length_m);
   var radius     = params.radius_m;
   var trace      = [];
@@ -76,7 +76,7 @@ function lookupBoom(params) {
     return { capacity_t:null, used_radius_m:null, trace:trace,
              reason:'counterweight key not found: ' + cwKey };
   }
-  trace.push('CW: ' + (params.counterweight ? '付' : '無'));
+  trace.push('CW: ' + (params.cwKey ?? '0') + 't');
 
   // boom層
   var boomLayer = cwLayer[boomKey];
@@ -122,7 +122,7 @@ function lookupBoom(params) {
 // params: {
 //   data          : jib JSON object
 //   outrigger_mm  : number | "front"
-//   counterweight : true (jibは常にCW付)
+//   cwKey         : string (boom_normal.jsonと同一キー)
 //   base_boom_m   : 24.0 | 45.0
 //   jib_length_m  : 13.8 | 18.0
 //   jib_offset_deg: 5 | 25 | 45 | 60
@@ -133,7 +133,7 @@ function lookupBoom(params) {
 function lookupJib(params) {
   var data       = params.data;
   var outrKey    = resolveOutriggerKey(params.outrigger_mm);
-  var cwKey      = 'true'; // ジブは常にCW付
+  var cwKey      = params.cwKey != null ? String(params.cwKey) : '0';
   var boomKey    = toKey(params.base_boom_m);
   var jibKey     = toKey(params.jib_length_m);
   var offsetKey  = String(params.jib_offset_deg);

@@ -105,7 +105,7 @@ function getCapacity(crane, radius) {
 //
 // sl850State: {
 //   outrigger_mm   : 7600|7200|6500|5400|4300|2550
-//   counterweight  : true|false
+//   cwKey          : string ('0', '5.0', '29.8', ...)
 //   boomMode       : "normal"|"special"
 //   boom_length_m  : number
 //   radius_m       : number (boom作業時)
@@ -140,7 +140,7 @@ function getSL850Capacity(sl850State, craneRawData) {
     return SL850Engine.lookupJib({
       data:           rawJib,
       outrigger_mm:   s.outrigger_mm,
-      counterweight:  true,
+      cwKey:          s.cwKey != null ? String(s.cwKey) : '0',
       base_boom_m:    s.boom_length_m,
       jib_length_m:   s.jibLen,
       jib_offset_deg: s.jib_offset_deg,
@@ -156,7 +156,7 @@ function getSL850Capacity(sl850State, craneRawData) {
   return SL850Engine.lookupBoom({
     data:          boomData,
     outrigger_mm:  s.outrigger_mm,
-    counterweight: s.counterweight,
+    cwKey:         s.cwKey != null ? String(s.cwKey) : '0',
     boom_length_m: s.boom_length_m,
     radius_m:      s.radius_m,
   });
@@ -293,35 +293,32 @@ function getJibObj(crane, jibLen) {
 // lookupBoomNormal — outriggers形式のloadchartから定格取得
 //
 // boom_raw: { outriggers: { "7600": { "true": { "23.5": { radius: { "10.0": 13.3 } } } } } }
-// params:   { outrigger_mm, counterweight, boom_length_m, radius_m }
+// params:   { outrigger_mm, cwKey, boom_length_m, radius_m }
 // 戻り値:   定格荷重(t) または null
 // ============================================================
 function lookupBoomNormal(boom_raw, params) {
   if (!boom_raw || !boom_raw.outriggers) return null;
 
   var outr_mm = params.outrigger_mm || 7600;
-  var cw      = params.counterweight !== false ? 'true' : 'false';
+  var cw      = params.cwKey != null ? String(params.cwKey) : '0';
   var boomLen = params.boom_length_m;
   var radius  = params.radius_m;
 
-  // アウトリガキー: exact match
-  // rtState.outrigger_m はボタン選択のみで設定され、
-  // outrigger_options.m と boom_normal.json キーは1対1対応が前提。
-  // 一致しない場合は不整合として null を返す（サイレント誤採用を防ぐ）。
-  var outr_key = outr_mm ? String(outr_mm) : null;
-  if (!outr_key || !boom_raw.outriggers[outr_key]) {
-    console.warn(
-      '[lookupBoomNormal] outrigger key not found:', outr_key,
-      '  available:', Object.keys(boom_raw.outriggers)
-    );
-    return null;
+  // アウトリガキー: 指定値以下の最大キーを選ぶ
+  var outr_keys = Object.keys(boom_raw.outriggers)
+    .filter(function(k){ return k !== 'front'; })
+    .map(function(k){ return parseInt(k, 10); })
+    .sort(function(a,b){ return b - a; }); // 降順
+  var outr_key = null;
+  for (var i = 0; i < outr_keys.length; i++) {
+    if (outr_keys[i] <= outr_mm) { outr_key = String(outr_keys[i]); break; }
   }
+  if (!outr_key) outr_key = String(outr_keys[outr_keys.length - 1]);
 
   var outr_table = boom_raw.outriggers[outr_key];
   if (!outr_table) return null;
 
-  // CWキー: なければ'true'にフォールバック
-  var cw_table = outr_table[cw] || outr_table['true'];
+  var cw_table = outr_table[cw];
   if (!cw_table) return null;
 
   // ブーム長キー: 指定値に最近傍のキーを探す（元キー文字列を保持）
